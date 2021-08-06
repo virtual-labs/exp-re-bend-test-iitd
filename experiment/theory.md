@@ -1,12 +1,12 @@
 
-Concrete has very low tensile strength campared to its compressive strength. In a RC beam, as the applied moment exceeds the cracking moment Mcr, the maximum tensile stress in concrete exceeds the flexural tensile strength of concrete fcr, and the beam begins to crack on the tension side. The cracks are initiated in the tensile fibres of the beam, and with increasing loading, widen and propagate gradually towards the neutral axis (NA)resulting in reduction in the effective concrete section. Due to this cracking, the tensile stresses arecarried  solely by the reinforcing steel. The dirstribution strainsand stressesin a singly reinforced RC beam for uncracked phase and craked phase is shown in figures below.
+Concrete has very low tensile strength campared to its compressive strength. In a RC beam, as the applied moment exceeds the cracking moment Mcr, the maximum tensile stress in concrete exceeds the flexural tensile strength of concrete fcr, and the beam begins to crack on the tension side. The cracks are initiated in the tensile fibres of the beam, and with increasing loading, widen and propagate gradually towards the neutral axis (NA) resulting in reduction in the effective concrete section. Due to this cracking, the tensile stresses arecarried  solely by the reinforcing steel. The dirstribution strainsand stressesin a singly reinforced RC beam for uncracked phase and craked phase is shown in figures below.
 
-<img src="images/th1.png" height="46px"><br>
-<img src="images/th2.png" height="46px">
+<img src="images/th1.png" height="455px"><br>
+<img src="images/th2.png" height="329px">
 
 <strong>Modes of failure of a concrete beam</strong><br>
 
-A reinforced concrete beam is considered to have failed when the strain of concrete in extreme compression fibre reaches its ultimate value (ε<sub>c</sub>=ε<sub>cu</sub>), irrespective of whether the tension steel yielded or not. At this stage, the actual strainin steel εst ,can have the following values:
+A reinforced concrete beam is considered to have failed when the strain of concrete in extreme compression fibre reaches its ultimate value (ε<sub>c</sub>=ε<sub>cu</sub>), irrespective of whether the tension steel yielded or not. At this stage, the actual strainin steel ε<sub>st</sub> ,can have the following values:
 
   a) Equal to failure strain of steel corresponding to balanced section (ε<sub>st</sub>=ε<sub>y</sub>).
 
@@ -15,15 +15,19 @@ A reinforced concrete beam is considered to have failed when the strain of concr
   c) Less than failure strain corresponding to over reinforced section(ε<sub>st</sub> <ε<sub>y</sub>).
 
 <i>Balanced section</i>
+
 The strain in steel and strain in concrete reach their maximum values simultaneously. The percentage of tension steel in this beam is known as critical or limiting steel percentage (p<sub>t,lim</sub>). For this section the depth of neutral axis (NA) isx<sub>u</sub> = x<sub>u,max</sub>.  
 
 <i>Under-reinforced section </i>
+
 An under-reinforced beam is the one in which tension steel percentage (p<sub>t</sub>) is less than critical or limiting percentage (p<sub>t,lim</sub>). Due to this, the NA is above the balanced NA and x<sub>u<</sub>x<sub>u,max</sub>
 
 <i>Over-reinforced section</i>
+  
 In the over reinforced beam, the tension steel percentage is more than limiting percentage due to which NA falls below the balanced NA and x<sub>u</sub>>x<sub>u,max</sub>. Because of higher percentage of tension steel, yield does not take place in steel and failure occurs when the strain in extreme fibres in concrete reaches its ultimate value.  
 
 <strong>Flexural behaviour of under reinforced beam </strong>
+  
 During an experiment, to determine the moment curvature relationship, the factors of safety as mentioned during design (FOS steel 1.15 and FOS concrete 1.5) should not be used.
 
 The description of symbols used in the calculations are given below.
@@ -63,14 +67,20 @@ Ultimate moment (as per Limit state design method given in IS456)
 <img src="images/f4.png" ><br><br>
 
 <strong>Sample calculations:</strong>
+  
 D= 200
+  
 d = 200 – 20 – 6 = 174 (using12 mm logitudinalbars and 6 mm stirrups)
+  
 b=150
+  
 Ast=226.19
+  
 f<sub>ck</sub>=30
 
 fy =565(Determined by tensile test on rebar)
-f_mean=34.5  (Determined using cube strength test)
+  
+f<sub>mean</sub>=34.5  (Determined using cube strength test)
 
 <img src="images/f5.png" ><br>
 
