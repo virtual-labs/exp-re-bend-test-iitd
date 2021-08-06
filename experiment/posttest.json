@@ -69,7 +69,7 @@
 	"correctAnswer": "b"
 },
 {
-	"question": "8. Consider the following cases in the design of reinforced concrete members in flexure:<br>Over-reinforced section<br>Tension failure<br>Compression failure<br>Under-reinforced section<br><br>Which of the above cases are considered for safe design of RC members in flexure?",
+	"question": "8. Consider the following cases in the design of reinforced concrete members in flexure:<br>1. Over-reinforced section<br>2. Tension failure<br>3. Compression failure<br>4. Under-reinforced section<br><br>Which of the above cases are considered for safe design of RC members in flexure?",
 	"answers": {
 		"a": "1 and 2 only",
 		"b": "3 and 4 only",
