@@ -29,7 +29,7 @@
 	"correctAnswer": "d"
 },
 {
-	"question": "4. In an RC section under flexure, the assumption that 'a plane section before bending remains plane after bending' leads to",
+	"question": "4. In an RC section under flexure, the assumption that 'aa plane section before bending remains plane after bending' leads to",
 	"answers": {
 		"a": "Strain distribution being linear across the depth",
 		"b": "Stress distribution being linear across the depth",
