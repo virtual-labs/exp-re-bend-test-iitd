@@ -111,7 +111,8 @@ Strain gauges
 
 Dial gauge
 
-Beam specimen (as showin in the figure below) – 1 nos. (recommended values: L’=2000, L = 1800 mm, LAA = 600 mm, b = 150 mm, D= 200 mm, cover = 20 mm (to shear reinforcement), Ast = 2-12φ, Steel grade = Fe500, Concrete grade = M20)
+Beam specimen (as showin in the figure below) – 1 nos. (recommended values: L’=2000, L = 1800 mm, LAA = 600 mm, b = 150 mm, D= 200 mm, cover = 20 mm (to shear reinforcement), Ast = 2-12&#8709;
+, Steel grade = Fe500, Concrete grade = M20)
   
 Concrete cubes for compressive strength test – 3 nos.
   
