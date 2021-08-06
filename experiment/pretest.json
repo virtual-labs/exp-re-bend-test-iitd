@@ -1,16 +1,101 @@
 [{
-	"question": "1.This is a sample question:",
+	"question": "1. As per IS: 456, for a singly reinforced rectangular section,",
 	"answers": {
-		"a": "This is a sample answer A",
-		"b": "This is a sample answer B"
+		"a": "X<sub>u,max</sub>/d  for Fe415 steel is 0.48",
+		"b": "The depth of centroid of compression is 0.48 X<sub>u,max</sub>",
+		"c": "The depth of the rectangular portion of the stress block is 0.38 X<sub>u,max</sub>",
+		"d": "The maximum value of lever arm d - X<sub>u,max</sub>"
 	},
 	"correctAnswer": "a"
-}, {
-	"question": "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",
+},
+ {
+	"question": "2. Consider the following statements: The design for the limit state of collapse in flexure is based on the following assumptions:<br>1. Plane sections normal to the axis remain plane after bending.<br>2. The maximum strain in concrete at the outermost tension fibre is 0.0035.<br>3. The relationship between the compressive stress distribution in concrete and the strain in concrete may be assumed to be rectangular, trapezoidal, parabolic, or any other shape, which results in prediction of strength in substantial agreement with the results of tests.<br><br>Select the correct answer using the codes given below:",
 	"answers": {
-		"a": "<img src='images/1b.png'>",
-		"b": "<img src='images/1a.png'>",
-		"c": "<img src='images/1c.PNG'>"
+		"a": "1 and 3",
+		"b": "2 and 3",
+		"c": "1, 2 and 3",
+		"d": "1 and 2"
+
+},
+	"correctAnswer": "a"
+},
+ {
+	"question": "3. If σ<sub>cbc</sub> is permissible compressive stress in flexural compression in N/mm<sup>2</sup> in service, the  modular ratio is of the order of",
+	"answers": {
+		"a": "280/3σ<sub>cbc</sub>",
+		"b": "280/4σ<sub>cbc</sub>",
+		"c": "19",
+		"d": "13"
+	},
+	"correctAnswer": "a"
+},
+ {
+	"question": "4. Stress-strain curve of concrete is",
+	"answers": {
+		"a": "A perfect straight line up to failure",
+		"b": "Straight line up to 0.002% strain value and then parabolic up to failure",
+		"c": "Parabolic up to 0.002% strain value and then a straight line up to failure",
+		"d": "Hyperbolic up to 0.002% strain value and then a straight line up to failure"
+	},
+	"correctAnswer": "c"
+},
+{
+	"question": "5. Consider the following statements :<br>Under-reinforced concrete flexural members<br>1.	are deeper<br>2. are stiffer<br>3. can undergo larger deflection<br><br>Which of these statements is/are correct?",
+	"answers": {
+		"a": "1, 2 and 3",
+		"b": "2 only",
+		"c": "1 and 2",
+		"d": "1 and 3"
+	},
+	"correctAnswer": "d"
+},
+{
+	"question": "6. What is the value of flexural strength of M 25 concrete?",
+	"answers": {
+		"a": "4.0 MPa",
+		"b": "3.0 MPa",
+		"c": "3.5 MPa",
+		"d": "1.75 Mpa"
+	},
+	"correctAnswer": "c"
+},
+{
+	"question": "7. Consider the following statements :<br>Modulus of elasticity of concrete is<br>1. tangent modulus<br>2. secant modulus<br>3. proportional to √(f<sub>ck</sub>)<br>4. proportional to 1/√(f<sub>ck<sub>)<br><br>Which of the statements given above are correct?",
+	"answers": {
+		"a": "1 and 3 only",
+		"b": "2 and 3 only",
+		"c": "1 and 4 only",
+		"d": "2 and 4 only"
+	},
+	"correctAnswer": "b"
+},
+{
+	"question": "8. Working stress method of design for reinforced concrete is",
+	"answers": {
+		"a": "not a Limit state design",
+		"b": "a serviceability limit state design",
+		"c": "a limit state for crack width",
+		"d": "a collapse limit state"
+	},
+	"correctAnswer": "a"
+},
+{
+	"question": "9. Consider the following statements :<br>In reinforced cement concrete, the modular ratio is defined by the ratio:<br>(modulus of elasticity of steel)/(modulus of elasticity of concrete)<br>2.	Modulus of rupture of cement concrete is a function of its characteristic compressive strength.<br>3.	The characteristic compressive strength of M 20 grade cement concrete at 7 days is 20 N/mm<sub>2</sub><br><br>Which of the statements given above are correct?",
+	"answers": {
+		"a": "1, 2 and 3",
+		"b": "2 and 3 only",
+		"c": "1 and 2 only",
+		"d": "1 and 3 only"
+	},
+	"correctAnswer": "c"
+},
+ {
+	"question": "10. At what stress does the first flexural crack appear in RCC beams made of M25 grade concrete?",
+	"answers": {
+		"a": "3.0 MPa",
+		"b": "4.0 MPa",
+		"c": "3.5 MPa",
+		"d": "4.5 Mpa"
 	},
 	"correctAnswer": "c"
 }]
