@@ -105,12 +105,9 @@ A combination of tensile, compressive and shear stresses usually determines the 
 
 <img src="images/th3.png" ><br><br>
 
-Four-point loading setup
-  
-Strain gauges
-  
-Dial gauge
-  
+Four-point loading setup 
+Strain gauges 
+Dial gauge  
 Beam specimen (as showin in the figure below) – 1 nos. (recommended values: L’=2000, L = 1800 mm, LAA = 600 mm, b = 150 mm, D= 200 mm, cover = 20 mm (to shear reinforcement), Ast = 2-12φ, Steel grade = Fe500, Concrete grade = M20)
   
 Concrete cubes for compressive strength test – 3 nos.
