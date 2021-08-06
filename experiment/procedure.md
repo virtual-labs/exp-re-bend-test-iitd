@@ -1,12 +1,12 @@
 ### These steps will be followed for the experiment<br>
 
 
-1.  Determine the mean compressive strength of concrete in structures. <br><br>
-2.  Determine the flexural strength of concrete.<br><br>
-3.  Determine the tensile strength of steel.<br><br>
-4.  Place the specimen on the loading setup. Ensure an acceptable contact between the specimen and loading points.<br><br> 
-5.  Install one strain gauge at the top surface and one at the bottom surface of the beam to measure strains.<br><br>
-6.  One dial gauge is installed at the top of the beam to measure the deflection of the beam (deflection should be measured with respect to the inner rollers).<br><br>
+1.  Determine the mean compressive strength of concrete in structures.<br>
+2.  Determine the flexural strength of concrete.<br>
+3.  Determine the tensile strength of steel.<br>
+4.  Place the specimen on the loading setup. Ensure an acceptable contact between the specimen and loading points.<br>
+5.  Install one strain gauge at the top surface and one at the bottom surface of the beam to measure strains.<br>
+6.  One dial gauge is installed at the top of the beam to measure the deflection of the beam (deflection should be measured with respect to the inner rollers).<br>
 7.  Apply the load at a uniform rateat 5KN load increments and note the reading.<br><br>
 
 
