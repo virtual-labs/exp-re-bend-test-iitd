@@ -15,9 +15,9 @@ b=<br>
 D=<br>
 d=<br>
 A<sub>st</sub>=<br>
-Concrete grade -fmean=<br>
-Steel grade –     fy=<br>
-<table style="width: 500px;  border: 1px solid red; text-align: center;">
+Concrete grade -f<sub>mean</sub>=<br>
+Steel grade –     f<sub>y</sub>=<br>
+<table style="width: 500px;  border: 0px solid red; text-align: center;">
     <tr style="height: 30px;" >
         <td width="100px">Load(KN)</td>
         <td  colspan="2">Strain</td>
@@ -76,7 +76,7 @@ Steel grade –     fy=<br>
 <strong>Calculations:</strong><br><br>
 
 
-<table style="width: 700px;  border: 1px solid red; text-align: center;">
+<table style="width: 700px;  border: 0px solid red; text-align: center;">
     <tr style="height: 30px;" >
         <td>S. No</td>
         <td>Load(KN)</td>
