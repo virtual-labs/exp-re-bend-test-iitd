@@ -40,7 +40,7 @@
 	"correctAnswer": "c"
 },
 {
-	"question": "5. Consider the following statements :Under-reinforced concrete flexural members<br>1. are deeper<br>2. are stiffer<br>3. can undergo larger deflection Which of these statements is/are correct?",
+	"question": "5. Consider the following statements :Under-reinforced concrete flexural members<br>1. are deeper<br>2. are stiffer<br>3. can undergo larger deflection<br><br> Which of these statements is/are correct?",
 	"answers": {
 		"a": "1, 2 and 3",
 		"b": "2 only",
