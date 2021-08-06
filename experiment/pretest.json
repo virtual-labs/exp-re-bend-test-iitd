@@ -60,7 +60,7 @@
 	"correctAnswer": "c"
 },
 {
-	"question": "7. Consider the following statements :<br>Modulus of elasticity of concrete is<br>1. tangent modulus<br>2. secant modulus<br>3. proportional to √(f<sub>ck</sub>)<br>4. proportional to 1/√(f<sub>ck<sub>)<br><br> wWhich of the statements given above are correct?",
+	"question": "7. Consider the following statements :<br>Modulus of elasticity of concrete is<br>1. tangent modulus<br>2. secant modulus<br>3. proportional to √(f<sub>ck</sub>)<br>4. proportional to 1/√(f<sub>ck</sub>)<br><br>Which of the statements given above are correct?",
 	"answers": {
 		"a": "1 and 3 only",
 		"b": "2 and 3 only",
