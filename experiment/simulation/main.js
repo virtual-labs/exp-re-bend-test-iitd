@@ -82,7 +82,9 @@ function navNext5()
         document.getElementById("canvas6").style.visibility="visible";
 
 setTimeout(function()
-    {
+    {        
+        document.getElementById("prs1").style.visibility="visible";
+        document.getElementById("prs2").style.visibility="visible";
         document.getElementById("movepin1").style.animation="move_pin1 5s forwards";
     },1000);
 
@@ -91,6 +93,11 @@ setTimeout(function()
         document.getElementById("crek1").style.visibility="visible";
         document.getElementById("arrowcubox6").style.visibility="visible";
         document.getElementById("nextButton6").style.visibility="visible";
+        setTimeout(function()
+        {
+        document.getElementById("prs1").style.visibility="hidden";
+        document.getElementById("prs2").style.visibility="hidden";
+        },1000);
     },6000);
 
         // document.getElementById("arrow6").style.visibility="visible";
