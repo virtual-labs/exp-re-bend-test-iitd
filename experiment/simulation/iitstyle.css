@@ -248,8 +248,8 @@ figure:hover figcaption {
 .nav-tabs > li > a {
     border-radius: 0 !important;
 }
-/*
-.fa {
+
+/*.fa {
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -263,7 +263,7 @@ figure:hover figcaption {
     vertical-align: middle;
     position: relative;
     top: -1px;
-    /*color: #a0a0a0;*
+    color: #a0a0a0;
     -webkit-font-smoothing: antialiased;
 }*/
 
