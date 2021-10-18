@@ -60,26 +60,16 @@ Beam specimen (as show in in the figure below) – 1 nos.
 
 Recommended values:
 
-L’=2000
-
-L = 1800 mm
-
-L<sub>AA</sub> = 600 mm
-
-b = 150 mm
-
-D= 200 mm
-
-Cover = 25 mm (to shear reinforcement)
-
-Ast = 2-12φ
-
-Steel grade = Fe500
-
-Concrete grade = M25
-
-Concrete cubes for compressive strength test – 3 nos.
-
+L’=2000<br>
+L = 1800 mm<br>
+L<sub>AA</sub> = 600 mm<br>
+b = 150 mm<br>
+D= 200 mm<br>
+Cover = 25 mm (to shear reinforcement)<br>
+Ast = 2-12φ<br>
+Steel grade = Fe500<br>
+Concrete grade = M25<br>
+Concrete cubes for compressive strength test – 3 nos.<br>
 Steel reinforcement, same as used in beam specimen – 600 mm (approx.) for tensile strength test.
 
 <strong>Observation</strong>
