@@ -74,17 +74,12 @@ Steel reinforcement, same as used in beam specimen – 600 mm (approx.) for tens
 
 <strong>Observation</strong>
 
-b= 
-
-D=	
-
+b=
+D=
 d=
-
 A<sub>st</sub>=
-
-Concrete grade -            f<sub>cm</sub> =
-
-Steel grade –				f<sub>ym</sub> =
+Concrete grade - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f<sub>cm</sub> =
+Steel grade –			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	f<sub>ym</sub> =
 
 <strong>Calculations:</strong>
 
