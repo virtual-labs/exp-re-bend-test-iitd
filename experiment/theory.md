@@ -83,7 +83,7 @@ Steel grade -		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 <strong>Calculations:</strong>
 
-<img src="images/t5.png" style="height: 120px;">
+<img src="images/t5.png" style="height: 210px;">
 
 Obseved failure mode (UR/OR)
 
