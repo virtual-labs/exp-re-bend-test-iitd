@@ -20,12 +20,12 @@
 	"correctAnswer": "c"
 
 }, {
-	"question": "Q3. In Limit state design of concrete for flexure, the area of stress block is taken as",
+	"question": "Q333. In Limit state design of concrete for flexure, the area of stress block is taken as",
 	"answers": {
 		"a": "0.530 f<sub>ck</sub>. X<sub>u</sub>",
 		"b": "0.420 f<sub>ck</sub>. X<sub>u</sub>",
 		"c": "0.446 f<sub>ck</sub>. X<sub>u</sub>",
-		"d": "0.360 f<sub>ck</sub>. X<sub>u</sub> <br> where f<sub>ck</sub> is the characteristic compressive strength of concrete and X<sub>u</sub> is the depth of the neutral axis from top." 
+		"d": "0.360 f<sub>ck</sub>. X<sub>u</sub>" 
 	},
 	"correctAnswer": "d"
 
