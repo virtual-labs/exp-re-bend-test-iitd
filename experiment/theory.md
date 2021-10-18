@@ -33,16 +33,18 @@ During an experiment, to estimate the ultimate moment resistance, the factors of
 
 The description of symbols used in the calculations are given below.
 
-L=span of the beam (m)
-D=depth of the beam (mm)
-d=effective depth of the beam (mm)
-b= width of the beam (mm)
-A<sub>st</sub>= area of steel in tension (mm<sup>2</sup>)
-E<sub>s</sub>= young modulus of steel (MPa)
-f<sub>ym</sub>= mean yield strength of steel (MPa)
-f<sub>cm</sub>= mean cube strength of concrete (MPa)
+L=span of the beam (m)<br>
+D=depth of the beam (mm)<br>
+d=effective depth of the beam (mm)<br>
+b= width of the beam (mm)<br>
+A<sub>st</sub>= area of steel in tension (mm<sup>2</sup>)<br>
+E<sub>s</sub>= young modulus of steel (MPa)<br>
+f<sub>ym</sub>= mean yield strength of steel (MPa)<br>
+f<sub>cm</sub>= mean cube strength of concrete (MPa)<br>
 x<sub>u</sub>= depth of neutral axis (mm)
+
 <i>Ultimate moment (as per Limit state design method given in IS456)</i>
+
 <img src="images/t2.png" style="height: 210px;">
 
 <strong>Apparatus and specimens</strong>
