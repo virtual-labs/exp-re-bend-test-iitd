@@ -80,12 +80,12 @@
 	"correctAnswer": "a"
 
 }, {
-	"question": "Q9999. Shear lag effect depends on",
+	"question": "Q9. Consider the following statements :<br>1. In reinforced cement concrete, the modular ratio is defined by the ratio:<br>2. <img src="images/pre1.png" style="height: 120px;"><br>3. Modulus of rupture of cement concrete is a function of its characteristic compressive strength.<br>The characteristic compressive strength of M 20 grade cement concrete at 7 days is 20 N/mm<sup>2</sup><br><br>Which of the statements given above are correct?",
 	"answers": {
-		"a": "Stiffness of adhesive layer",
-		"b": "Thickness of adhesive layer",
-		"c": "Both a & b",
-		"d": "None of the above"
+		"a": "1, 2 and 3",
+		"b": "2 and 3 only",
+		"c": "1 and 2 only",
+		"d": "1 and 3 only"
 	},
 	"correctAnswer": "c"
 
