@@ -89,7 +89,7 @@ Obseved failure mode (UR/OR)
 
 Estimated M<sub>uR</sub> 
 
-<img src="images/t6.png" style="height: 120px;">
+<img src="images/t6.png" style="height: 210px;">
 
 <strong>Results:</strong>
 
