@@ -55,7 +55,7 @@ In this test, to study the flexural behavior of the concrete beam, a four-point 
 
 Beam specimen (as show in in the figure below) – 1 nos.
 
-<img src="images/t4.png" style="height: height: 170px; padding-left: 135px;">
+<img src="images/t4.png" style=" height: 170px; padding-left: 135px;">
 
 
 Recommended values:
