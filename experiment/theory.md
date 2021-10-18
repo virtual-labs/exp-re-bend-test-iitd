@@ -3,7 +3,7 @@
 Concrete has very low tensile strength campared to its compressive strength. In a RC beam, as the applied moment exceeds the cracking moment Mcr, the maximum tensile stress in concrete exceeds the flexural tensile strength of concrete fcr, and the beam begins to crack on the tension side. The cracks are initiated in the tensile fibres of the beam, and with increasing loading, widen and propagate gradually towards the neutral axis (NA) resulting in reduction in the effective concrete section. Due to this cracking, the tensile stresses are carried  solely by the reinforcing steel. The dirstribution strains and stresses in a singly reinforced RC beam for uncracked phase and craked phase is shown in figures below.
 
 
-<img src="images/t1.png" style="height: 120px;">
+<img src="images/t1.png" style="height: 350px;">
 
 <strong>Modes of failure of a concrete beam</strong>
 
