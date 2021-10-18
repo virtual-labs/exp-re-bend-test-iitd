@@ -93,6 +93,6 @@ Estimated M<sub>uR</sub>
 
 <strong>Results:</strong>
 
-Obseved failure mode (UR/OR) = 
-Estimated M<sub>uR</sub>  =
-Observed M<sub>uR</sub>  =
+Obseved failure mode (UR/OR) = <br>
+Estimated M<sub>uR</sub>  =<br>
+Observed M<sub>uR</sub>  =<br>
