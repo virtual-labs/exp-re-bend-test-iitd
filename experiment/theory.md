@@ -10,7 +10,9 @@ Concrete has very low tensile strength campared to its compressive strength. In 
 A reinforced concrete beam is considered to have failed when the strain of concrete in extreme compression fibre reaches its ultimate value (ε<sub>c</sub>=ε<sub>cu</sub>), irrespective of whether the tension steel yielded or not. At this stage, the actual strain in steel εst , can have the following values:
 
 a) Equal to failure strain of steel corresponding to balanced section (ε<sub>st</sub>=ε<sub>y</sub>).
+
 b) More than failure strain, corresponding to under reinforced section (ε<sub>st</sub> >ε<sub>y</sub>).
+
 c) Less than failure strain corresponding to over reinforced section (ε</sub>st <ε<sub>y</sub>).
 
 <i>Balanced section</i>
