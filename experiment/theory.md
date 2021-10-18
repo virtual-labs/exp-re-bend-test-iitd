@@ -21,7 +21,7 @@ The strain in steel and strain in concrete reach their maximum values simultaneo
 
 <i>Under-reinforced section</i>
 
-An under-reinforced beam is the one in which tension steel percentage (p<sub>t</sub>) is less than critical or limiting percentage (p<sub>t,lim</sub>). Due to this, the NA is above the balanced NA and xu < <sub>xu,max</sub>
+An under-reinforced beam is the one in which tension steel percentage (p<sub>t</sub>) is less than critical or limiting percentage (p<sub>t,lim</sub>). Due to this, the NA is above the balanced NA and x<sub>u</sub> < x<sub>u,max</sub>
 
 <i>Over-reinforced section</i>
 
