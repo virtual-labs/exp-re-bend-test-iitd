@@ -40,14 +40,14 @@
 	"correctAnswer": "c"
 
 }, {
-	"question": "Q5555. Shear lag effect depends on",
+	"question": "Q5. Consider the following statements :<br>Under-reinforced concrete flexural members<br>1. are deeper<br>2. are stiffer<br>3. can undergo larger deflection<br><br>Which of these statements is/are correct?",
 	"answers": {
-		"a": "Stiffness of adhesive layer",
-		"b": "Thickness of adhesive layer",
-		"c": "Both a & b",
-		"d": "None of the above"
+		"a": "1, 2 and 3",
+		"b": "2 only",
+		"c": "1 and 2",
+		"d": "1 and 3"
 	},
-	"correctAnswer": "c"
+	"correctAnswer": "d"
 
 }, {
 	"question": "Q6. What is the value of flexural strength of M 25 concrete?",
