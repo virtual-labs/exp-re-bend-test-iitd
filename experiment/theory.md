@@ -51,7 +51,7 @@ x<sub>u</sub>= depth of neutral axis (mm)
 
 In this test, to study the flexural behavior of the concrete beam, a four-point (also called the third point) loading setup as shown in the figure below is selected. The middle portion of the beam is subjected to pure flexure as shear stress in this region is zero.
 
-<img src="images/t3.png" style="height: 120px;">
+<img src="images/t3.png" style=" height: 450px; padding-left: 115px;">
 
 Beam specimen (as show in in the figure below) – 1 nos.
 
