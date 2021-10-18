@@ -43,7 +43,7 @@ f<sub>ym</sub>= mean yield strength of steel (MPa)
 f<sub>cm</sub>= mean cube strength of concrete (MPa)
 x<sub>u</sub>= depth of neutral axis (mm)
 <i>Ultimate moment (as per Limit state design method given in IS456)</i>
-<img src="images/t2.png" style="height: 120px;">
+<img src="images/t2.png" style="height: 210px;">
 
 <strong>Apparatus and specimens</strong>
 
