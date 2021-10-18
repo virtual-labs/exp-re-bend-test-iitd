@@ -78,8 +78,8 @@ b=<br>
 D=<br>
 d=<br>
 A<sub>st</sub>=<br>
-Concrete grade - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f<sub>cm</sub> =<br>
-Steel grade -		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	f<sub>ym</sub> =
+Concrete grade - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f<sub>cm</sub> =<br>
+Steel grade -		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	f<sub>ym</sub> =
 
 <strong>Calculations:</strong>
 
