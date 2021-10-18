@@ -60,14 +60,14 @@
 	"correctAnswer": "c"
 
 }, {
-	"question": "Q7777. &#8730; 2 lag effect depends on",
+	"question": "Q7. Consider the following statements :<br>Modulus of elasticity of concrete is<br>1. tangent modulus<br>2. secant modulus<br>3. proportional to &#8730;f<sub>ck</sub><br>4. proportional to 1/&#8730;f<sub>ck</sub><br><br>Which of the statements given above are correct?",
 	"answers": {
-		"a": "Stiffness of adhesive layer",
-		"b": "Thickness of adhesive layer",
-		"c": "Both a & b",
-		"d": "None of the above"
+		"a": "1 and 3 only",
+		"b": "2 and 3 only",
+		"c": "1 and 4 only",
+		"d": "2 and 4 only"
 	},
-	"correctAnswer": "c"
+	"correctAnswer": "b"
 
 }, {
 	"question": "Q8. Working stress method of design for reinforced concrete is",
