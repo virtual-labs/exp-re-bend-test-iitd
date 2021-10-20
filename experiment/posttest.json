@@ -70,7 +70,7 @@
 	"correctAnswer": "b"
 
 }, {
-	"question": "Q888. Working stress method of design for reinforced concrete is",
+	"question": "Q888. Consider the following cases in the design of reinforced concrete members in flexure:",
 	"answers": {
 		"a": "not a Limit state design",
 		"b": "a serviceability limit state design",
