@@ -86,6 +86,9 @@ setTimeout(function()
         document.getElementById("prs1").style.visibility="visible";
         document.getElementById("prs2").style.visibility="visible";
         document.getElementById("movepin1").style.animation="move_pin1 5s forwards";
+	
+	document.getElementById("loadp").style.visibility="visible";
+	
     },1000);
 
 setTimeout(function()
