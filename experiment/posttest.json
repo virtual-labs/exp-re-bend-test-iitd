@@ -11,10 +11,10 @@
 },  {
 	"question": "Q2. What is the ratio of flexural strenght (f<sub>cr</sub>) to the  characteristic compressive strenght of concrete (f<sub>ck</sub>) for M25 grade concrete ?",
 	"answers": {
-		"1": "0.08",
-		"2": "0.11",
-		"3": "0.14",
-		"4": "0.17"
+		"a": "0.08",
+		"b": "0.11",
+		"c": "0.14",
+		"d": "0.17"
 
 	},
 	"correctAnswer": "c"
