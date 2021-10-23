@@ -1,5 +1,5 @@
 [{
-	"question": "Q1. As per IS: 456, for a singly reinforced rectangular section,",
+	"question": "1. As per IS: 456, for a singly reinforced rectangular section,",
 	"answers": {
 		"a": "X<sub>u,max</sub>/d  for Fe415 steel is 0.48",
 		"b": "The depth of centroid of compression is 0.48 X<sub>u,max</sub>",
@@ -9,7 +9,7 @@
 	"correctAnswer": "a"
 
 },  {
-	"question": "Q2. Consider the following statements: The design for the limit state of collapse in flexure is based on the following assumptions:<br>1. Plane sections normal to the axis remain plane after bending.<br>2. The maximum strain in concrete at the outermost tension fibre is 0.0035.<br> 3. The relationship between the compressive stress distribution in concrete and the strain in concrete may be assumed to be rectangular, trapezoidal, parabolic, or any other shape, which results in prediction of strength in substantial agreement with the results of tests.<br><br>Select the correct answer using the codes given below:",
+	"question": "2. Consider the following statements: The design for the limit state of collapse in flexure is based on the following assumptions:<br>1. Plane sections normal to the axis remain plane after bending.<br>2. The maximum strain in concrete at the outermost tension fibre is 0.0035.<br> 3. The relationship between the compressive stress distribution in concrete and the strain in concrete may be assumed to be rectangular, trapezoidal, parabolic, or any other shape, which results in prediction of strength in substantial agreement with the results of tests.<br><br>Select the correct answer using the codes given below:",
 	"answers": {
 		"a": "1 and 3",
 		"b": "2 and 3",
@@ -20,7 +20,7 @@
 	"correctAnswer": "a"
 
 }, {
-	"question": "Q3. If σ<sub>cbc</sub> is permissible compressive stress in flexural compression in N/mm² in service, the  modular ratio is of the order of",
+	"question": "3. If σ<sub>cbc</sub> is permissible compressive stress in flexural compression in N/mm² in service, the  modular ratio is of the order of",
 	"answers": {
 		"a": "280/3σ<sub>cbc</sub>",
 		"b": "280/4σ<sub>cbc</sub>",
@@ -30,7 +30,7 @@
 	"correctAnswer": "a"
 
 }, {
-	"question": "Q4. Stress-strain curve of concrete is",
+	"question": "4. Stress-strain curve of concrete is",
 	"answers": {
 		"a": "A perfect straight line up to failure",
 		"b": "Straight line up to 0.002% strain value and then parabolic up to failure",
@@ -40,7 +40,7 @@
 	"correctAnswer": "c"
 
 }, {
-	"question": "Q5. Consider the following statements :<br>Under-reinforced concrete flexural members<br>1. are deeper<br>2. are stiffer<br>3. can undergo larger deflection<br><br>Which of these statements is/are correct?",
+	"question": "5. Consider the following statements :<br>Under-reinforced concrete flexural members<br>1. are deeper<br>2. are stiffer<br>3. can undergo larger deflection<br><br>Which of these statements is/are correct?",
 	"answers": {
 		"a": "1, 2 and 3",
 		"b": "2 only",
@@ -50,7 +50,7 @@
 	"correctAnswer": "d"
 
 }, {
-	"question": "Q6. What is the value of flexural strength of M 25 concrete?",
+	"question": "6. What is the value of flexural strength of M 25 concrete?",
 	"answers": {
 		"a": "4.0 MPa",
 		"b": "3.0 MPa",
@@ -60,7 +60,7 @@
 	"correctAnswer": "c"
 
 }, {
-	"question": "Q7. Consider the following statements :<br>Modulus of elasticity of concrete is<br>1. tangent modulus<br>2. secant modulus<br>3. proportional to &#8730;f<sub>ck</sub><br>4. proportional to 1/&#8730;f<sub>ck</sub><br><br>Which of the statements given above are correct?",
+	"question": "7. Consider the following statements :<br>Modulus of elasticity of concrete is<br>1. tangent modulus<br>2. secant modulus<br>3. proportional to &#8730;f<sub>ck</sub><br>4. proportional to 1/&#8730;f<sub>ck</sub><br><br>Which of the statements given above are correct?",
 	"answers": {
 		"a": "1 and 3 only",
 		"b": "2 and 3 only",
@@ -70,7 +70,7 @@
 	"correctAnswer": "b"
 
 }, {
-	"question": "Q8. Working stress method of design for reinforced concrete is",
+	"question": "8. Working stress method of design for reinforced concrete is",
 	"answers": {
 		"a": "not a Limit state design",
 		"b": "a serviceability limit state design",
@@ -80,7 +80,7 @@
 	"correctAnswer": "a"
 
 }, {
-	"question": "Q9. Consider the following statements :<br>1. In reinforced cement concrete, the modular ratio is defined by the ratio:<br>2. <img src='images/pre1.png' style='height: 120px;'><br>3. Modulus of rupture of cement concrete is a function of its characteristic compressive strength.<br>The characteristic compressive strength of M 20 grade cement concrete at 7 days is 20 N/mm<sup>2</sup><br><br>Which of the statements given above are correct?",
+	"question": "9. Consider the following statements :<br>1. In reinforced cement concrete, the modular ratio is defined by the ratio:<br>2. <img src='images/pre1.png' style='height: 75px;'><br>3. Modulus of rupture of cement concrete is a function of its characteristic compressive strength.<br>The characteristic compressive strength of M 20 grade cement concrete at 7 days is 20 N/mm<sup>2</sup><br><br>Which of the statements given above are correct?",
 	"answers": {
 		"a": "1, 2 and 3",
 		"b": "2 and 3 only",
@@ -90,7 +90,7 @@
 	"correctAnswer": "c"
 
 }, {
-	"question": "Q10. At what stress does the first flexural crack appear in RCC beams made of M25 grade concrete?",
+	"question": "10. At what stress does the first flexural crack appear in RCC beams made of M25 grade concrete?",
 	"answers": {
 		"a": "3.0 MPa",
 		"b": "4.0 MPa",
