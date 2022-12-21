@@ -23,6 +23,7 @@ The bend test shall be carried out in testing machines or presses equipped with 
 devices:
 a) bending device with two supports and a former as shown in Figure 1
 <img src="./images/bendingdevice.png">
+
 4.2.1 The diameter of the former is determined by the product standard. The test piece
 supports and the former shall be of sufficient hardness (see Figure 1).
 4.2.2 Unless otherwise specified, the distance between the supports, 𝑙, shall be: 
@@ -31,12 +32,14 @@ l = ( D + 3a ) ± a/2
 and shall not change during the bend test. 
 b) bending device with a V-block and a former as shown in Figure 2
 <img src="./images/vblockdevice.png">
+
 The tapered surfaces of the V-block shall form an angle of 180°− α (see Figure 2). The angle
 α is specified in the relevant standard.
 The edges of the V-block shall have a radius between 1 to 10 times the thickness of the test
 piece and shall be of sufficient hardness.
 c) bending device with a clamp as shown in Figure 3
 <img src="./images/bendingdevicewithclamp.png">
+
 The device consists of a clamp and a former of sufficient hardness; it may be equipped with
 a lever for applying force to the test piece (see Figure 3).
 Because the position of the left face of the clamp could influence the test results, the left face
@@ -67,9 +70,11 @@ mm
 The diameter of the mandrel shall be as follows:
 <img src="./images/bendtable.png">
 
+
 <h4>Re-bend Test</h4>
 The diameter of the mandrel shall be as follows:
 <img src="./images/rebendtable.png">
+
 
 
 <h3>Apparatus</h3>
