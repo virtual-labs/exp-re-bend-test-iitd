@@ -1,347 +1,70 @@
-### These steps will be followed for the experiment<br>
+<h3>Bend Test:</h3>
+The bend test shall be carried out using one of the following methods as specified in the
+relevant standard:
+a) a specified angle of bend is achieved under an appropriate force and for the given
+conditions (see Figures 1, 2 and 3);
+b) the legs of the test piece are parallel to each other at a specified distance apart while
+under an appropriate force (see Figure 6);
+c) the legs of the test piece are in direct contact while under an appropriate force (see Figure
+7).
+
+<img src="./images/legsindirectcontact.png">
+
+In the bend test to a specified angle of bend, the test piece shall be placed on the supports
+(see Figure 1) or on the V-block (see Figure 2) and bent in the middle between supports by
+the action of a force.
+The bending shall be applied slowly to permit free plastic flow of the material. In case of
+dispute, a testing rate of (1 ± 0.2) mm/s shall be used.
+If it is not possible to bend the test piece directly to the specified angle in the manner
+described above, the bend shall be completed by pressing directly on the ends of the legs of
+the test piece (see Figure 5).
+In a bend test requiring parallel legs, the test piece may be bent first, as indicated in Figure
+5, and then placed between the parallel plates of the press (see Figure 6), where it is further
+formed by application of a force to obtain parallelism of the legs. The test may be carried out
+with or without an insert. The thickness of the insert shall be as defined in the relevant
+standard or by agreement.
+
+<h3>Rebend Test</h3>
+The test piece shall be bent to an included angle of 135˚ using a mandrel of appropriate
+diameter.
+The bent piece shall be aged by keeping in boiling water (100˚C) for 30 min and then
+allowed to cool.
+The piece shall be bent to have an included angle of 157.5˚.
+Check for any cracks on the tension side.
+
+<img src="./images/nominalsize.png">
 
 
-1.  Determine the mean compressive strength of concrete in structures. <br><br>
-2.  Determine the flexural strength of concrete.<br><br>
-3.  Determine the tensile strength of steel.<br><br>
-4.  Place the specimen on the loading setup. Ensure an acceptable contact between the specimen and loading points.<br><br> 
-5.  Install one strain gauge at the top surface and one at the bottom surface of the beam to measure strains.<br><br>
-6.  One dial gauge is installed at the top of the beam to measure the deflection of the beam (deflection should be measured with respect to the inner rollers).<br><br>
-7.  Apply the load at a uniform rateat 5KN load increments and note the reading.<br><br>
+<h4>Retest</h4>
+If any one of the test pieces first selected fail to pass any of the tests specified in this
+standard, two further samples shall be selected for testing in respect of each failure. Should
+the test pieces from both these additional samples pass, the material represented by the test
+samples shall be deemed to comply with the requirements of that particular test. Should the
+test piece from either of these additional samples fail, the material presented by the samples
+shall be considered as not having complied with this standard.
 
+<h3>Observations:</h3>
+Identification of test piece:
+Type of material:
+Cast number:
+Shape of cross-section:
+Nominal diameter/Dimension of cross-section:
+Length of test piece:
+Diameter of mandrel:
+Test Method:
+<h3>Result:</h3>
+The material presented by the given sample has (passed/failed) the bend test.
+The material presented by the given sample has (passed/failed) the re-bend test.
 
-<strong>Observations</strong><br>
-b=<br>
-D=<br>
-d=<br>
-A<sub>st</sub>=<br>
-Concrete grade -fmean=<br>
-Steel grade –     fy=<br>
-<table style="width: 500px;  border: 1px solid red; text-align: center;">
-    <tr style="height: 30px;" >
-        <td width="100px">Load(KN)</td>
-        <td  colspan="2">Strain</td>
-        <td width="150px">Deflection(μm)</td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td width="100px">top</td>
-        <td width="100px">bottom</td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px; " >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table><br>
-
-<strong>Calculations:</strong><br><br>
-
-
-<table style="width: 700px;  border: 1px solid red; text-align: center;">
-    <tr style="height: 30px;" >
-        <td>S. No</td>
-        <td>Load(KN)</td>
-        <td>Moment(KNm)</td>
-        <td colspan="2">Strain (mm)</td>
-        <td>Curvature (m<sup>-1</sup>)</td>
-        <td>NADepthobserved (mm)</td>
-        <td>NADepthTheoritical (mm)</td>
-        <td>Observed Deflection (mm)</td>
-        <td>Theoretical Deflection (mm)</td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td>top</td>
-        <td>bottom</td>
-        <td width="100px"></td>
-        <td width="100px"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>  
-    </tr>
-    <tr style="height: 30px; " >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="height: 30px;" >
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table><br><br>
-
-Plots and comparethe theoretical and  experimental value/
-
-
-<!-- <table style="width:  ">
-    <tr> 
-        <td rowspan="2">Specimen</td>
-        <td rowspan="2">Lo (mm)</td>
-        <td rowspan="2">Stress</td>
-        <td colspan="3">∆L(mm)</td>
-        <td colspan="4">Longitudinal strain(𝛆)=∆L/Lo</td>
-        <td rowspan="2">Fc</td>
-        <td rowspan="2">Centering<br>check (±20%)</td>
-    </tr>
-    <tr> 
-        <td>Line1</td>
-        <td>Line2</td>
-        <td>Line3</td>
-        <td>Line1</td>
-        <td>Line2</td>
-        <td>Line3</td>
-        <td>Average</td> 
-    </tr>
-    <tr >
-        <td>1</td>
-        <td></td>
-        <td>σ<sub>a</sub></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr >
-        <td>2</td>
-        <td></td>
-        <td>σ<sub>a</sub></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr> 
-</table> -->
-
-<!-- Using strain gauges (two on diametrically opposite end)
-
-Using extensometer (three equidistant from each other) -->
-
-<!-- <table style="width:  ">
-    <tr> 
-        <td rowspan="2">Specimen</td>
-        <td rowspan="2">Lo (mm)</td>
-        <td rowspan="2">Stress</td>
-        <td colspan="2">∆L(mm)</td>
-        <td colspan="3">Longitudinal strain(𝛆)=∆L/Lo</td>
-        <td rowspan="2">Fc</td>
-        <td rowspan="2">Centering<br>check (±20%)</td>
-    </tr>
-    <tr> 
-        <td>Line1</td>
-        <td>Line2</td>
-        <td>Line1</td>
-        <td>Line2</td>
-        <td>Average</td> 
-    </tr>
-    <tr>
-        <td rowspan="2">1</td>
-        <td rowspan="4"></td>
-        <td>σ<sub>a</sub></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td rowspan="2"></td>
-        <td></td>
-    </tr>
-    <tr>  
-        <td>σ<sub>b</sub></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td rowspan="2">2</td> 
-        <td>σ<sub>a</sub></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td rowspan="2"></td>
-        <td></td> 
-    </tr>
-    <tr>
-        <td>σ<sub>b</sub></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td> 
-    </tr> 
-</table> -->
-
-
-<!-- <table style="width:  ">
-    <tr> 
-        <td>Specimen</td>
-        <td>Compressive Strength</td>
-        <td>Static modulus of elasticity, MPa<br>E<sub>c</sub> = (σ<sub>a</sub> - σ<sub>b</sub>) / (ε<sub>a</sub> - ε<sub>b</sub>)
-</td>
-    </tr>
-    <tr> 
-        <td>1</td>
-        <td></td> 
-        <td></td> 
-    </tr>
-    <tr>
-        <td>2</td> 
-        <td></td>
-        <td></td> 
-    </tr>
-    <tr>  
-        <td>Average</td>
-        <td></td>
-        <td></td> 
-    </tr> 
-</table>
-<br> -->
-
-<!-- <strong>Results:</strong><br>
-
-Identification number of the specimen:<br>
-Date of test:<br>
-Concrete cube/cylinder/core strength at date of testing:<br>
-Maximum applied stress during test (Fc/3)<br>
-Compressive strength of test specimens:<br>
-Static modulus of elasticity:<br>
-Appearance of the concrete and type of fracture:<br>
-<br>
-
-<strong>Precautions:</strong><br>
-
-All specimens shall be tested within one hour of removal from the water or mist chamber, whilst they are still wet.
-The extensometers shall be fixed with the recording points at the same end.
-In no case the gauge points should be nearer to either end of the specimen than a distance equal to half the diameter. -->
-    
+Observations:<>
+Identification of test piece:
+Type of material:
+Cast number:
+Shape of cross-section:
+Nominal diameter/Dimension of cross-section:
+Length of test piece:
+Diameter of mandrel:
+Test Method:
+<h3>Result:</h3>
+The material presented by the given sample has (passed/failed) the bend test.
+The material presented by the given sample has (passed/failed) the re-bend test.
