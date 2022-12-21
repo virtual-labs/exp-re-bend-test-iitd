@@ -43,6 +43,7 @@ samples shall be deemed to comply with the requirements of that particular test.
 test piece from either of these additional samples fail, the material presented by the samples
 shall be considered as not having complied with this standard.
 
+
 <h3>Observations:</h3>
 Identification of test piece:
 Type of material:
@@ -52,19 +53,8 @@ Nominal diameter/Dimension of cross-section:
 Length of test piece:
 Diameter of mandrel:
 Test Method:
+
 <h3>Result:</h3>
 The material presented by the given sample has (passed/failed) the bend test.
 The material presented by the given sample has (passed/failed) the re-bend test.
 
-Observations:<>
-Identification of test piece:
-Type of material:
-Cast number:
-Shape of cross-section:
-Nominal diameter/Dimension of cross-section:
-Length of test piece:
-Diameter of mandrel:
-Test Method:
-<h3>Result:</h3>
-The material presented by the given sample has (passed/failed) the bend test.
-The material presented by the given sample has (passed/failed) the re-bend test.
