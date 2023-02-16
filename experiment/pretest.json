@@ -1,5 +1,5 @@
 [{
-	"question": "1.	Bending tests are conducted to ensure that the material has enough _________",
+	"question": "1.Bending tests are conducted to ensure that the material has enough _________",
 	"answers": {
 		"a": "Force",
 		"b": "Hardness",
@@ -10,7 +10,7 @@
 
 },
 {
-	"question": "2.	Bend and re-bend tests are quantitative tests for steel reinforcements.",
+	"question": "2.Bend and re-bend tests are quantitative tests for steel reinforcements.",
 	"answers": {
 		"a": "True ",
 		"b": "False"
