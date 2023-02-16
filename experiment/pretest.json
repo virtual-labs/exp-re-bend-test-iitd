@@ -1,5 +1,5 @@
 [{
-	"question": "1.Bending tests are conducted to ensure that the material has enough _________.",
+	"question": "1. Bending tests are conducted to ensure that the material has enough _________",
 	"answers": {
 		"a": "Force",
 		"b": "Hardness",
@@ -7,25 +7,24 @@
 		"d": "Ductility"
 	},
 	"correctAnswer": "d"
-
-},{
-	"question": "2.Bend and re-bend tests are quantitative tests for steel reinforcements." ,,
+}, {
+	"question": "2. Bend and re-bend test are quantitative tests for steel reinforcements.",
 	"answers": {
-		"a": "True ",
-		"b": "False "
+		"a": "True",
+		"b": "False"
 	},
 	"correctAnswer": "b"
-},{
-	"question": "3. The usual angle through which bending should be obtained in a bending test is: " ,
+}, {
+	"question": "3. The usual angle through which bending should be obtained in a bending test is: ",
 	"answers": {
-		"a": "180",
-		"b": "120",
-		"c": "75",
-		"d": "90"
+		"a": "180°",
+		"b": "120°",
+		"c": "75°",
+		"d": "90°"
 	},
 	"correctAnswer": "a"
-},{
-	"question": "4. Which IS code specifies the details of mandrel to be used for different grades and thickness ? ",
+}, {
+	"question": "4. Which IS code specifies the details of mandrel to be used for different grades and thickness ?",
 	"answers": {
 		"a": "IS 1599",
 		"b": "IS 456",
@@ -33,8 +32,8 @@
 		"d": "IS 1566"
 	},
 	"correctAnswer": "c"
-},{
-	"question": "5. Which IS code details the method of bend test to be performed on reinforcement bars ? ",
+}, {
+	"question": "5. Which IS code details the method of bend test to be performed on reinforcement bars ?",
 	"answers": {
 		"a": "IS 1599",
 		"b": "IS 456",
