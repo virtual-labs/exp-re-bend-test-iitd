@@ -8,16 +8,7 @@
 	},
 	"correctAnswer": "d"
 }, {
-	"question": "2. Bend and re-bend test are quantitative tests for",
-	"answers": {
-		"a": "soil foundation",
-		"b": "steel reinforcements",
-		"c": "aggregates",
-		"d": "concrete"
-	},
-	"correctAnswer": "b"
-}, {
-	"question": "3. The usual angle through which bending should be obtained in a bending test is: ",
+	"question": "2. The usual angle through which bending should be obtained in a bending test is: ",
 	"answers": {
 		"a": "180°",
 		"b": "120°",
@@ -26,7 +17,7 @@
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "4. Which IS code specifies the details of mandrel to be used for different grades and thickness ?",
+	"question": "3. Which IS code specifies the details of mandrel to be used for different grades and thickness ?",
 	"answers": {
 		"a": "IS 1599",
 		"b": "IS 456",
@@ -35,7 +26,7 @@
 	},
 	"correctAnswer": "c"
 }, {
-	"question": "5. Which IS code details the method of bend test to be performed on reinforcement bars ?",
+	"question": "4. Which IS code details the method of bend test to be performed on reinforcement bars ?",
 	"answers": {
 		"a": "IS 1599",
 		"b": "IS 456",
