@@ -1,98 +1,166 @@
-### Theory:
+<h3>Introduction</h3>
+<br>
+Reinforcing bars are used in reinforced concrete and are one of the main parts of R.C.C structure. In concrete structures, reinforcement bars carry tensile stresses after concrete cracking. This is because concrete exhibits very high compression strength but low tensile capacity. The bond between the reinforcement and the concrete transfers the tensile stresses to the bars. At the site, bars are bent and re-bent as per the requirements. That’s why it becomes essential to understand the behaviour of reinforcement bars under bend and re-bend conditions. 
 
-Concrete has very low tensile strength campared to its compressive strength. In a RC beam, as the applied moment exceeds the cracking moment Mcr, the maximum tensile stress in concrete exceeds the flexural tensile strength of concrete fcr, and the beam begins to crack on the tension side. The cracks are initiated in the tensile fibres of the beam, and with increasing loading, widen and propagate gradually towards the neutral axis (NA) resulting in reduction in the effective concrete section. Due to this cracking, the tensile stresses are carried  solely by the reinforcing steel. The dirstribution strains and stresses in a singly reinforced RC beam for uncracked phase and craked phase is shown in figures below.
+The most important test performed on reinforcement to determine the mechanical properties is the tensile strength test. It provides information on the strength and ductility of materials under uniaxial tensile stresses. But sometimes bending test is also performed. The bend test indicates the adequacy or otherwise of the material to undergo required deformation without fracturing or yielding. In this test, the test piece, when cold, shall be doubled over the mandrel by continuous pressure until the sides are parallel. The specimen shall be considered to have passed the test if there is no rupture or cracks visible to a person of normal or corrected vision on the bent portion. 
 
+The re-bend test is used to measure the effects of strain-ageing on steel. Strain-ageing is a type of behaviour, usually associated with the yield-point phenomenon, in which the strength of a metal is increased, and the ductility is decreased after it had been retested after a previous series of testing in the plastic range. In steel, strain ageing is due to the diffusion of small elements such as carbon and nitrogen to crystal flaws (e.g. dislocations). The test procedure consists of bending, ageing, re-bending and inspection, respectively.
 
-<img src="images/t1.png" style="height: 350px;">
+<br>
+<h3>Apparatus</h3>
+<br>
+The bend test shall be carried out in testing machines or presses equipped with a bending device with two supports and a mandrel as shown in Figure 1.
+<br>
+<div align="center" ><img src="images/img1.png"></div>
+<br>
 
-<strong>Modes of failure of a concrete beam</strong>
+<ol>
+<li>The diameter of the mandrel is determined by the test piece. The supports and the mandrel shall be of sufficient hardness. </li>
+<li>	Unless otherwise specified, the distance between the supports, l, shall be: 
+<div align="center">l = ( D + 3a ) ± a/2 </div>
+and shall not change during the bend test. 
+</li>
+</ol>
+Other types of bending equipment that can be used are V-block as shown in Figure 2 or bending device with a clamp as shown in Figure 3.
+<br>
+<div align="center" ><img src="images/img2.png"></div>
+<br>
+<div align="center" ><img src="images/img3.png"></div>
+<br>
 
-A reinforced concrete beam is considered to have failed when the strain of concrete in extreme compression fibre reaches its ultimate value (ε<sub>c</sub>=ε<sub>cu</sub>), irrespective of whether the tension steel yielded or not. At this stage, the actual strain in steel εst , can have the following values:
+<h4>Apparatus for Bend Test</h4>
+<ol>
+<li>Bend Test Arrangement</li>
+<li>Mandrels for bend tests</li>
+</ol>
+<br>
 
-a) Equal to failure strain of steel corresponding to balanced section (ε<sub>st</sub>=ε<sub>y</sub>).
-
-b) More than failure strain, corresponding to under reinforced section (ε<sub>st</sub> >ε<sub>y</sub>).
-
-c) Less than failure strain corresponding to over reinforced section (ε</sub>st <ε<sub>y</sub>).
-
-<i>Balanced section</i>
-
-The strain in steel and strain in concrete reach their maximum values simultaneously. The percentage of tension steel in this beam is known as critical or limiting steel percentage (p<sub>t,lim</sub>). For this section the depth of neutral axis (NA) is x<sub>u</sub> = x<sub>u,max</sub>.
-
-<i>Under-reinforced section</i>
-
-An under-reinforced beam is the one in which tension steel percentage (p<sub>t</sub>) is less than critical or limiting percentage (p<sub>t,lim</sub>). Due to this, the NA is above the balanced NA and x<sub>u</sub> < x<sub>u,max</sub>
-
-<i>Over-reinforced section</i>
-
-In the over reinforced beam, the tension steel percentage is more than limiting percentage due to which NA falls below the balanced NA and x<sub>u</sub> > x<sub>u,max</sub>. Because of higher percentage of tension steel, yield does not take place in steel and failure occurs when the strain in extreme fibres in concrete reaches its ultimate value.
-
-<strong>Flexural behaviour of under reinforced beam</strong>
-
-During an experiment, to estimate the ultimate moment resistance, the factors of safety as mentioned during design (FOS steel 1.15 and FOS concrete 1.5) should not be used.
-
-The description of symbols used in the calculations are given below.
-
-L=span of the beam (m)<br>
-D=depth of the beam (mm)<br>
-d=effective depth of the beam (mm)<br>
-b= width of the beam (mm)<br>
-A<sub>st</sub>= area of steel in tension (mm<sup>2</sup>)<br>
-E<sub>s</sub>= young modulus of steel (MPa)<br>
-f<sub>ym</sub>= mean yield strength of steel (MPa)<br>
-f<sub>cm</sub>= mean cube strength of concrete (MPa)<br>
-x<sub>u</sub>= depth of neutral axis (mm)
-
-<i>Ultimate moment (as per Limit state design method given in IS456)</i>
-
-<img src="images/t2.png" style="height: 210px;">
-
-<strong>Apparatus and specimens</strong>
-
-In this test, to study the flexural behavior of the concrete beam, a four-point (also called the third point) loading setup as shown in the figure below is selected. The middle portion of the beam is subjected to pure flexure as shear stress in this region is zero.
-
-<img src="images/t3.png" style=" height: 450px; padding-left: 115px;">
-
-Beam specimen (as show in in the figure below) – 1 nos.
-
-<img src="images/t4.png" style=" height: 170px; padding-left: 135px;">
+<h4>Apparatus for Re-bend Test</h4>
+<ol>
+<li>Bend Test Arrangement</li>
+<li>Mandrels for re-bend tests</li>
+<li>Temperature controlled water bath</li>
+<li>Angle protractor</li>
+<li>Stopwatch</li>
+</ol>
 
 
-Recommended values:
+<h4>Mandrel</h4>
+A mandrel is a core around which workpiece can be bent, forged, or moulded. The diameter of the mandrel for the bend and re-bend test shall be as follows, as per IS 1786: 2008 (reaffirmed 2018):
 
-L’=2000<br>
-L = 1800 mm<br>
-L<sub>AA</sub> = 600 mm<br>
-b = 150 mm<br>
-D= 200 mm<br>
-Cover = 25 mm (to shear reinforcement)<br>
-Ast = 2-12φ<br>
-Steel grade = Fe500<br>
-Concrete grade = M25<br>
-Concrete cubes for compressive strength test – 3 nos.<br>
-Steel reinforcement, same as used in beam specimen – 600 mm (approx.) for tensile strength test.
+<div align="center">
+<h4>Table 1: Mandrel Diameter for Bend Test</h4>
+<br>
+<table>
+<thead>
+  <tr>
+    <th>Sl.No.&nbsp;&nbsp;&nbsp;</th>
+    <th>Nominal Size of Specimen&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="11">  Mandrel Diameter for Different Grades<br>   <br>    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(1)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(2)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe415<br>&nbsp;&nbsp;&nbsp;<br>(3)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe415D<br>&nbsp;&nbsp;&nbsp;<br>(4)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe415S<br>&nbsp;&nbsp;&nbsp;<br>(5)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe500<br>&nbsp;&nbsp;&nbsp;<br>(6)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe500D<br>&nbsp;&nbsp;&nbsp;<br>(7)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe500S<br>&nbsp;&nbsp;&nbsp;<br>(8)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe550<br>&nbsp;&nbsp;&nbsp;<br>(9)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe550D<br>&nbsp;&nbsp;&nbsp;<br>(10)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe600<br>&nbsp;&nbsp;&nbsp;<br>(11)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe650<br>&nbsp;&nbsp;&nbsp;<br>(12)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe700<br>&nbsp;&nbsp;&nbsp;<br>(13)&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>(i)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Up to and including 20 mm&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>3ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>2ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>2ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>4ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>3ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>3ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>5ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>4ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>5ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>6ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>7ɸ&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>(ii)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Over 20 mm&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>4ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>3ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>3ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>5ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>4ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>4ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>6ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>5ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>6ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>7ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>8ɸ&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="13">NOTE - ɸ is the nominal size of the test piece, in mm.</td>
+  </tr>
+</tbody>
+</table>
+</div>
 
-<strong>Observation</strong>
 
-b=<br>
-D=<br>
-d=<br>
-A<sub>st</sub>=<br>
-Concrete grade - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f<sub>cm</sub> =<br>
-Steel grade -		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	f<sub>ym</sub> =
 
-<strong>Calculations:</strong>
+<div align="center">
+<h4>Table 2: Mandrel Diameter for Re-bend Test</h4>
+<br>
+<table>
+<thead>
+  <tr>
+    <th>   Sl. No.   </th>
+    <th>Nominal Size of Specimen   <br></th>
+    <th colspan="6">   Mandrel Diameter for Different Grades   </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>   <br> <br>   <br>(1)   </td>
+    <td>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(2)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe415 &amp; Fe500<br>&nbsp;&nbsp;&nbsp;<br>(3)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe415D &amp; Fe500D<br>&nbsp;&nbsp;&nbsp;<br>(4)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe415S &amp; Fe500S<br>&nbsp;&nbsp;&nbsp;<br>(5)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe550 &amp; Fe600<br>&nbsp;&nbsp;&nbsp;<br>(6)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe550D<br>&nbsp;&nbsp;&nbsp;<br>(7)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Fe650 &amp; Fe700<br>&nbsp;&nbsp;&nbsp;<br>(8)&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>(i)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Up to and including 10 mm&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>5ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>4ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>4ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>7ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>6ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>7ɸ&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>(ii)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Over 10 mm&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>7ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>6ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>6ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>9ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>7ɸ&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>9ɸ&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="8">NOTE - ɸ is the nominal size of the test piece, in mm.</td>
+  </tr>
+</tbody>
+</table>
+</div>
 
-<img src="images/t5.png" style="height: 210px;">
 
-Obseved failure mode (UR/OR)
-
-Estimated M<sub>uR</sub> 
-
-<img src="images/t6.png" style="height: 210px;">
-
-<strong>Results:</strong>
-
-Obseved failure mode (UR/OR) = <br>
-Estimated M<sub>uR</sub>  =<br>
-Observed M<sub>uR</sub>  =<br>
