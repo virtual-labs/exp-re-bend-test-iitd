@@ -88,5 +88,5 @@ If any one of the test pieces first selected fail to pass the any of the tests s
 
 
 <h3>Results</h3>
-The material represented by the given sample has (passed/failed) the bend test.
+The material represented by the given sample has (passed/failed) the bend test.<br>
 The material represented by the given sample has (passed/failed) the re-bend test.
