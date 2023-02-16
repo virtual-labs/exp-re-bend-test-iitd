@@ -1,119 +1,61 @@
 [{
-	"question": "1. What is the modular ratio to be used in the analysis of RC beams using the working stress method if the grade of concrete is M 20?,",
+	"question": "1.	What should be the mandrel diameter for bend test of a Fe500 specimen of diameter 20mm ?",
 	"answers": {
-		"a": "18.6",
-		"b": "9.9",
-		"c": "13.3",
-		"d": "6.5"
-	},
-	"correctAnswer": "c"
-
-},  {
-	"question": "2. What is the ratio of flexural strenght (f<sub>cr</sub>) to the  characteristic compressive strenght of concrete (f<sub>ck</sub>) for M25 grade concrete ?",
-	"answers": {
-		"a": "0.08",
-		"b": "0.11",
-		"c": "0.14",
-		"d": "0.17"
-
-	},
-	"correctAnswer": "c"
-
-}, {
-	"question": "3. In Limit state design of concrete for flexure, the area of stress block is taken as",
-	"answers": {
-		"a": "0.530 f<sub>ck</sub>. X<sub>u</sub>",
-		"b": "0.420 f<sub>ck</sub>. X<sub>u</sub>",
-		"c": "0.446 f<sub>ck</sub>. X<sub>u</sub>",
-		"d": "0.360 f<sub>ck</sub>. X<sub>u</sub>" 
-	},
-	"correctAnswer": "d"
-
-}, {
-	"question": "4. In an RC section under flexure, the assumption that 'a plane section before bending remains plane after bending' leads to",
-	"answers": {
-		"a": "Strain distribution being linear across the depth",
-		"b": "Stress distribution being linear across the depth",
-		"c": "Both stress and strain distribution being linear across the depth",
-		"d": "Shear stress distribution being uniform along the depth"
+		"a": "80 mm ",
+		"b": "100 mm",
+		"c": "140 mm",
+		"d": "20 mm"
 	},
 	"correctAnswer": "a"
 
-}, {
-	"question": "5. If any tension reinforcement in an RC beam attains its yield stress during loading before the concrete in the compression zone fails due to crushing, the beam is said to be",
+},{
+	"question": "2.	What should be the mandrel diameter for re-bend test of a Fe550 specimen of diameter 12mm ?",
 	"answers": {
-		"a": "under-reinforced",
-		"b": "balanced",
-		"c": "over-reinforced",
-		"d": "non-homogeneous"
+		"a": "108 mm",
+		"b": "84 mm",
+		"c": "60 mm",
+		"d": "72 mm"
 	},
 	"correctAnswer": "a"
 
-}, {
-	"question": "6. The distance between the centroid of the area of tension reinforcement and the maximum compressive fiber in a reinforced concrete beam design is known as",
+},{
+	"question": "3.	At what testing rate, the bending shall be applied in bend and re-bend tests ?",
 	"answers": {
-		"a": "overall depth",
-		"b": "lever arm",
-		"c": "effective depth",
-		"d": "depth of neutral axis"
+		"a": "1 mm/s",
+		"b": "2.5 mm/s",
+		"c": "3 mm/s",
+		"d": "4 mm/s"
+	},
+	"correctAnswer": "a"
+
+},{
+	"question": "4.	Which of the following grades of steel has the highest ductility ?",
+	"answers": {
+		"a": "Fe415",
+		"b": "Fe415D",
+		"c": "Fe415S",
+		"d": "All of the above have same ductility"
 	},
 	"correctAnswer": "c"
 
-}, {
-	"question": "7. The minimum strain at failure in tension-steel having yield stress fy = 415 MPa and Young's Modulus E. = 200 GPa, as per Limit State'S Method of Design, is",
+},{
+	"question": "5.	What shall be the distance between the supports for the bend test of a Fe550 rod of diameter 12 mm ?",
 	"answers": {
-		"a": "0.0025",
-		"b": "0.0038",
-		"c": "0.0045",
-		"d": "0.0050"
-	},
-	"correctAnswer": "b"
-
-}, {
-	"question": "8. Consider the following cases in the design of reinforced concrete members in flexure:",
-	"answers": {
-		"a": "not a Limit state design",
-		"b": "a serviceability limit state design",
-		"c": "a limit state for crack width",
-		"d": "a collapse limit state"
+		"a": "96 ± 6 mm",
+		"b": "84 ± 6 mm",
+		"c": "108 ± 6 mm",
+		"d": "60 ± 6 mm"
 	},
 	"correctAnswer": "a"
 
-}, {
-	"question": "9. A rectangular beam 200 mm wide has an effective depth of 350 mm. It is subjected to a bending moment of 24,000 Nm. The permissible stresses are c = 5 N/mm<sup>2</sup>, t = 140 N/mm<sup>2</sup>; and m is 18. The required area of tensile reinforced will be",
+},{
+	"question": "6.	What kind of support is used to fix the specimen in bend and re-bend tests ?",
 	"answers": {
-		"a": "688 mm<sup>2</sup>",
-		"b": "864 mm<sup>2</sup>",
-		"c": "778 mm<sup>2</sup>",
-		"d": "954 mm<sup>2</sup>"
+		"a": "Hinge",
+		"b": "Fixed",
+		"c": "Roller",
+		"d": "Pinned"
 	},
 	"correctAnswer": "c"
 
-}, {
-	"question": "10. Two rectangular under-reinforced concrete beam sections X and Y are similar in all aspects except that the longitudinal compression reinforcement in section Y is 10% more. Which one of the following is the correct statement?",
-	"answers": {
-		"a": "Section X has less flexural strength and is less ductile than section Y",
-		"b": "Section X has less flexural strength but is more ductile than section Y",
-		"c": "Section X and Y have equal flexural strength but different ductility",
-		"d": "Section X and Y have equal flexural strength and ductility"
-	},
-	"correctAnswer": "a"
-}, {
-	"question": "11. According to IS 456-2000, which one of the following statements about the depth of neutral axis for a balanced reinforced concrete X<sub>u,bal</sub> section is correct?",
-	"answers": {
-		"a": "X<sub>u,bal</sub> depends on the grade of concrete only",
-		"b": "X<sub>u,bal</sub> depends on the grade of steel only",
-		"c": "X<sub>u,bal</sub> depends on both the grade of concrete and grade of steel",
-		"d": "X<sub>u,bal</sub> does not depend on the grade of concrete and grade of steel"
-	},
-	"correctAnswer": "b"
-}, {
-	"question": "12. The modulus of rupture of concrete in terms of its characteristic cube compressive strength (f<sub>ck</sub>) in MPa according to IS: 456-2000 is",
-	"answers": {
-		"a": "5000/f<sub>ck</sub>",
-		"b": "5000 f<sub>ck</sub>",
-		"c": "0.7 f<sub>ck</sub>",
-		"d": "0.7 &s8730; f<sub>ck</sub>"
-	},
-	"correctAnswer": "d"
 }]
