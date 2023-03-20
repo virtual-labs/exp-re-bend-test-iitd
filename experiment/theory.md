@@ -1,40 +1,28 @@
 <h3>Introduction</h3>
-<br>
-Reinforcing bars are used in reinforced concrete and are one of the main parts of R.C.C structure. In concrete structures, reinforcement bars carry tensile stresses after concrete cracking. This is because concrete exhibits very high compression strength but low tensile capacity. The bond between the reinforcement and the concrete transfers the tensile stresses to the bars. At the site, bars are bent and re-bent as per the requirements. That’s why it becomes essential to understand the behaviour of reinforcement bars under bend and re-bend conditions. 
-
-The most important test performed on reinforcement to determine the mechanical properties is the tensile strength test. It provides information on the strength and ductility of materials under uniaxial tensile stresses. But sometimes bending test is also performed. The bend test indicates the adequacy or otherwise of the material to undergo required deformation without fracturing or yielding. In this test, the test piece, when cold, shall be doubled over the mandrel by continuous pressure until the sides are parallel. The specimen shall be considered to have passed the test if there is no rupture or cracks visible to a person of normal or corrected vision on the bent portion. 
-
-The re-bend test is used to measure the effects of strain-ageing on steel. Strain-ageing is a type of behaviour, usually associated with the yield-point phenomenon, in which the strength of a metal is increased, and the ductility is decreased after it had been retested after a previous series of testing in the plastic range. In steel, strain ageing is due to the diffusion of small elements such as carbon and nitrogen to crystal flaws (e.g. dislocations). The test procedure consists of bending, ageing, re-bending and inspection, respectively.
-
+Reinforcing bars are used in reinforced concrete and are one of the main parts of R.C.C structure. In concrete structures, reinforcement bars carry tensile stresses after concrete cracking. This is because concrete exhibits very high compression strength but low tensile capacity. The bond between the reinforcement and the concrete transfers the tensile stresses to the bars. At the site, bars are bent and re-bent as per the requirements. That’s why it becomes essential to understand the behaviour of reinforcement bars under bend and re-bend conditions. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The most important test performed on reinforcement to determine the mechanical properties is the tensile strength test. It provides information on the strength and ductility of materials under uniaxial tensile stresses. But sometimes bending test is also performed. The bend test indicates the adequacy or otherwise of the material to undergo required deformation without fracturing or yielding. In this test, the test piece, when cold, shall be doubled over the mandrel by continuous pressure until the sides are parallel. The specimen shall be considered to have passed the test if there is no rupture or cracks visible to a person of normal or corrected vision on the bent portion. 
+ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The re-bend test is used to measure the effects of strain-ageing on steel. Strain-ageing is a type of behaviour, usually associated with the yield-point phenomenon, in which the strength of a metal is increased, and the ductility is decreased after it had been retested after a previous series of testing in the plastic range. In steel, strain ageing is due to the diffusion of small elements such as carbon and nitrogen to crystal flaws (e.g. dislocations). The test procedure consists of bending, ageing, re-bending and inspection, respectively.
 <br>
 <h3>Apparatus</h3>
-<br>
 The bend test shall be carried out in testing machines or presses equipped with a bending device with two supports and a mandrel as shown in Figure 1.
 <br>
 <div align="center" ><img src="images/img1.png"></div>
 <br>
-
-<ol>
-<li>The diameter of the mandrel is determined by the test piece. The supports and the mandrel shall be of sufficient hardness. </li>
-<li>	Unless otherwise specified, the distance between the supports, l, shall be: 
-<div align="center">l = ( D + 3a ) ± a/2 </div>
-and shall not change during the bend test. 
-</li>
-</ol>
-Other types of bending equipment that can be used are V-block as shown in Figure 2 or bending device with a clamp as shown in Figure 3.
+The diameter of the mandrel is determined by the test piece. The supports and the mandrel shall be of sufficient hardness. Unless otherwise specified, the distance between the supports, l, shall be: l = ( D + 3a ) ± a/2 and shall not change during the bend test. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other types of bending equipment that can be used are V-block as shown in Figure 2 or bending device with a clamp as shown in Figure 3.
 <br>
 <div align="center" ><img src="images/img2.png"></div>
 <br>
 <div align="center" ><img src="images/img3.png"></div>
 <br>
-
 <h4>Apparatus for Bend Test</h4>
 <ol>
 <li>Bend Test Arrangement</li>
 <li>Mandrels for bend tests</li>
 </ol>
 <br>
-
 <h4>Apparatus for Re-bend Test</h4>
 <ol>
 <li>Bend Test Arrangement</li>
@@ -46,8 +34,7 @@ Other types of bending equipment that can be used are V-block as shown in Figure
 
 
 <h4>Mandrel</h4>
-A mandrel is a core around which workpiece can be bent, forged, or moulded. The diameter of the mandrel for the bend and re-bend test shall be as follows, as per IS 1786: 2008 (reaffirmed 2018):
-
+A mandrel is a core around which workpiece can be bent, forged, or moulded. The diameter of the mandrel for the bend and re-bend test shall be as per Table 1 and Table 2.
 <div align="center">
 <h4>Table 1: Mandrel Diameter for Bend Test</h4>
 <br>
