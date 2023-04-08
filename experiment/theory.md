@@ -7,15 +7,15 @@ Reinforcing bars are used in reinforced concrete and are one of the main parts o
 <h3>Apparatus</h3>
 The bend test shall be carried out in testing machines or presses equipped with a bending device with two supports and a mandrel as shown in Figure 1.
 <br>
-<div align="center" ><img src="images/img1.png"></div>
+<div align="center" ><img src="images/img1.png"><b>Fig. 1: Bending device with two supports and a mandrel</b></div>
 <br>
 The diameter of the mandrel is determined by the test piece. The supports and the mandrel shall be of sufficient hardness. Unless otherwise specified, the distance between the supports, l, shall be: l = ( D + 3a ) ± a/2 and shall not change during the bend test. 
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other types of bending equipment that can be used are V-block as shown in Figure 2 or bending device with a clamp as shown in Figure 3.
 <br>
-<div align="center" ><img src="images/img2.png"></div>
+<div align="center" ><img src="images/img2.png"><b>Fig. 2: Bending device with a V-block and a mandrel</b></div>
 <br>
-<div align="center" ><img src="images/img3.png"></div>
+<div align="center" ><img src="images/img3.png"><b>Fig. 3: Bending device with a clamp</b></div>
 <br>
 <h4>Apparatus for Bend Test</h4>
 <ol>
