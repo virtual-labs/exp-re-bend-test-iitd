@@ -4,7 +4,9 @@ The length of the specimen shall not be less than 600 mm.
 <ol>
 <li>Select a mandrel of appropriate diameter as per Table 1 and attach it to the bending machine. </li>
 <li>Place the specimen on the supports as shown and lower down the mandrel to make direct contact with the specimen. 
-<div align="center"><img src="images/img4.png"></div>
+
+<div align="center"><img src="images/img4.png"><br><b>Fig. 4: Specimen supported on the bending device</b></div>
+
 </li>
 <li>Start applying vertical force to the specimen using the hydraulic pump to cause bending. The bending shall be applied slowly to permit free plastic flow of the material. In case of dispute, a testing rate of (1 ± 0.2) mm/s shall be used. </li>
 <li>Continue bending the specimen until the two ends are almost parallel to each other. </li>
@@ -28,7 +30,7 @@ The lenght of specimen shall not be less than 600 mm.
 <li>Bend the piece to have an included angle 157.5°. Check the angle as described in step 4. </li>
 <li>Check for any cracks on the tension side. If there are no cracks, the test piece is said to have passed the test.</li>
 <li>Repeat steps 1 to 8 for another test piece from the given sample. 
-<div align="center"><img src="images/img5.png"></div>
+<div align="center"><img src="images/img5.png"><br><b>Fig. 5: Re-bend Test</b></div>
 </li>
 </ol>
 
