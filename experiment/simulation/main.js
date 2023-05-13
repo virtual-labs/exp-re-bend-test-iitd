@@ -234,16 +234,18 @@ var z1=0;
 function zoomband1()
 
 {
+            // document.getElementById("arrowzoomin").style.visibility="hidden";
+            // document.getElementById("zoomband_tb").style.visibility="hidden";
+            // document.getElementById("zoomimg1").style.visibility="visible";
+            // document.getElementById("zoomimg2").style.visibility="visible";
+            // document.getElementById("seletext1").style.visibility="visible";
+            // document.getElementById("seletext2").style.visibility="visible";
+
+         if (m1%2 == 0)
+        {
             document.getElementById("arrowzoomin").style.visibility="hidden";
             document.getElementById("zoomband_tb").style.visibility="hidden";
             document.getElementById("zoomimg1").style.visibility="visible";
-            document.getElementById("zoomimg2").style.visibility="visible";
-            document.getElementById("seletext1").style.visibility="visible";
-            document.getElementById("seletext2").style.visibility="visible";
-
-        /* if (m1%2 == 0)
-        {
-            
             c1 =5;
             // alert(c1);
             document.getElementById("seletext1").style.visibility="visible";
@@ -265,7 +267,7 @@ function zoomband1()
             document.getElementById("subbtn1").style.visibility="visible";
             document.getElementById("step5_a").style.visibility="hidden";
             document.getElementById("step5_b").style.visibility="visible";
-        }*/
+        }
 
 }
 
@@ -310,21 +312,21 @@ var z2=0;
 function zoomband2()
 
 {
-            document.getElementById("arrowzoomin2").style.visibility="hidden";
-            document.getElementById("zoomband_tb2").style.visibility="hidden";
-            document.getElementById("zoomimg3").style.visibility="visible";
-            document.getElementById("zoomimg4").style.visibility="visible";
-            document.getElementById("seletext3").style.visibility="visible";
-            document.getElementById("seletext4").style.visibility="visible";
+            // document.getElementById("arrowzoomin2").style.visibility="hidden";
+            // document.getElementById("zoomband_tb2").style.visibility="hidden";
+            // document.getElementById("zoomimg3").style.visibility="visible";
+            // document.getElementById("zoomimg4").style.visibility="visible";
+            // document.getElementById("seletext3").style.visibility="visible";
+            // document.getElementById("seletext4").style.visibility="visible";
 
-        /* if (m2%2 == 0)
+         if (m2%2 == 0)
         {
             document.getElementById("arrowzoomin2").style.visibility="hidden";
             document.getElementById("zoomband_tb2").style.visibility="hidden";
             document.getElementById("zoomimg3").style.visibility="visible";
             c2 =5;
             // alert(c1);
-            document.getElementById("seletext2").style.visibility="visible";
+            document.getElementById("selecttext2").style.visibility="visible";
             document.getElementById("selectbar2").style.visibility="visible";
             document.getElementById("subbtn2").style.visibility="visible";
             document.getElementById("step15_a").style.visibility="hidden";
@@ -338,12 +340,12 @@ function zoomband2()
             document.getElementById("zoomimg4").style.visibility="visible";
             c2 =6;
             // alert(c1);
-            document.getElementById("seletext2").style.visibility="visible";
+            document.getElementById("selecttext2").style.visibility="visible";
             document.getElementById("selectbar2").style.visibility="visible";
             document.getElementById("subbtn2").style.visibility="visible";
             document.getElementById("step15_a").style.visibility="hidden";
             document.getElementById("step15_b").style.visibility="visible";
-        }*/
+        }
 
 }
 
@@ -356,7 +358,7 @@ function selectimage2()
     if (c2 == 6 && z2 == 1) 
     {
         // alert(c1);
-    document.getElementById("selecttext2").innerHTML="&nbsp;";
+    document.getElementById("selecttext3").innerHTML="&nbsp;";
 
     document.getElementById("nextButton15b").style.visibility="visible";
     document.getElementById("arrowcubox15").style.visibility="visible";
@@ -366,7 +368,7 @@ function selectimage2()
     else if (c2 == 5 && z2 == 2) 
     {
         // alert(c1);
-    document.getElementById("selecttext2").innerHTML="&nbsp;";
+    document.getElementById("selecttext3").innerHTML="&nbsp;";
 
     document.getElementById("nextButton15").style.visibility="visible";
     document.getElementById("arrowcubox15").style.visibility="visible";
@@ -375,7 +377,7 @@ function selectimage2()
 
     else
     {
-        document.getElementById("selecttext2").innerHTML="Wrong";
+        document.getElementById("selecttext3").innerHTML="Wrong";
     }
 
 }
@@ -997,7 +999,7 @@ if (l2 !== "" && d2 !== "" && g2 !== "" && m2 !== "")
     {
         // alert("naveen");
 
-if (d2<= "10") {
+if (d2 <= "10") {
 
     gt11 = "5";
     gt22 = "4";
@@ -1007,7 +1009,7 @@ if (d2<= "10") {
     gt66 = "7";
 }
 
-if (d2>"10") {
+if (d2 > "10") {
     gt11 = "7";
     gt22 = "6";
     gt33 = "6";

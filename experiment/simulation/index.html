@@ -334,8 +334,58 @@
 <strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
 
             <span class="circlebg" style="position: absolute; top: 25px; left: 60px;">&nbsp;3&nbsp;</span></br>
-
 	<span style="position:absolute;left: 100px; top: 28px;"><strong>Examine the tension side of the rod.</strong></span>
+
+	<span id="step5_a" style="position:absolute;left: 100px; top: 55px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click to enlarge the view.</span>
+	<span id="step5_b" style="position:absolute;left: 100px; top: 55px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Select the correct option and cilck on submit button.</span>
+<img src="images/uband2.png" style="position: absolute; left: 100px;top: 170px;height: 300px;">
+	
+	<img src="images/ubandzoom.png" id="zoomimg1" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;">
+	
+	<img src="images/ubandzoomcreck.png" id="zoomimg2" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;">
+
+    <img src="images/transbox.png" id="zoomband_tb" style="position: absolute; left: 110px;
+    top: 350px;
+    height: 130px;
+    width: 180px;" onclick="zoomband1()">
+ 
+    <span class="incanvas" id="seletext1" style="position: absolute; top: 400px; left: 440px; font-weight: bold; visibility: hidden;">&nbsp;Select the correct option</span>
+
+            <select id="selectbar" style="position: absolute; left: 450px; top: 440px; width: 160px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px; visibility: hidden;">
+                
+                <option value="">--Select--</option>
+
+                <option value="1">With cracks</option>
+
+                <option value="2">Without cracks</option>
+
+            </select>
+
+    <input type="Button" id="subbtn1" value="Submit" onclick="selectimage1()" style="position: absolute; left: 500px; top: 490px; font-size:16px; background-color: #2150a0; color: #FFF; visibility: hidden;">
+
+<span style="position: absolute; top: 444px; left: 625px; color: red;" id="selecttext1"></span>
+<!-- </div>  -->
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowzoomin" style="position:absolute; font-size: 30px; left: 190px; top: 390px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+             <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowcubox5" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton5" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext5()" />
+
+             <img src="images/Next.png" id="nextButton5b" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext6()" />
+        </div>
+
+
+<!-- 	<span style="position:absolute;left: 100px; top: 28px;"><strong>Examine the tension side of the rod.</strong></span>
 
 	<span id="step5_a" style="position:absolute;left: 100px; top: 55px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click to enlarge the view.</span>
 	<span id="step5_b" style="position:absolute;left: 100px; top: 55px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Select the correct option and cilck on submit button.</span>
@@ -356,7 +406,7 @@
     border-radius: 160px;
     border: 6px solid #000; visibility: hidden;" onclick="navNext6()">
 
-<!--Blinking arrowcubox  -->
+<!--Blinking arrowcubox  --
             <span class="blink_me" id="arrowzoomin" style="position:absolute; font-size: 30px; left: 140px; top: 390px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
 
     <img src="images/transbox.png" id="zoomband_tb" style="position: absolute; left: 60px;
@@ -383,16 +433,16 @@
     <input type="Button" id="subbtn1" value="Submit" onclick="selectimage1()" style="position: absolute; left: 500px; top: 490px; font-size:16px; background-color: #2150a0; color: #FFF; visibility: hidden;">
 
 <span style="position: absolute; top: 444px; left: 625px; color: red;" id="selecttext1"></span>
-<!-- </div>  -->
 
 
-             <!--Blinking arrowcubox  -->
+
+             <!--Blinking arrowcubox  --
             <span class="blink_me" id="arrowcubox5" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
 
              <img src="images/Next.png" id="nextButton5" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext5()" />
 
              <img src="images/Next.png" id="nextButton5b" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext6()" />
-        </div>
+        </div> -->
 
 
 
@@ -1029,7 +1079,7 @@
 
     <img src="images/smallband6.png" style="position: absolute; left: 20px; top: 340px; height: 140px;">
     
-    <!-- <img src="images/vbandzoom.png" id="zoomimg3" style="position: absolute;    left: 380px;
+    <img src="images/vbandzoom.png" id="zoomimg3" style="position: absolute;    left: 380px;
     top: 90px;
     height: 300px;
     border-radius: 160px;
@@ -1039,10 +1089,10 @@
     top: 90px;
     height: 300px;
     border-radius: 160px;
-    border: 6px solid #000; visibility: hidden;"> -->
+    border: 6px solid #000; visibility: hidden;">
 
 
-    <img src="images/vbandzoom.png" id="zoomimg3" style="position: absolute; left: 270px;
+    <!-- <img src="images/vbandzoom.png" id="zoomimg3" style="position: absolute; left: 270px;
     top: 170px;
     height: 240px;
     border-radius: 160px;
@@ -1052,7 +1102,7 @@
     top: 170px;
     height: 240px;
     border-radius: 160px;
-    border: 6px solid #000; visibility: hidden;" onclick="navNext16()">
+    border: 6px solid #000; visibility: hidden;" onclick="navNext16()"> -->
 
 
     <span class="incanvas" id="seletext3" style="position: absolute; top: 410px; left: 600px; font-weight: bold; visibility: hidden;">&nbsp;With cracks</span>
@@ -1066,7 +1116,7 @@
 
     <img src="images/transbox.png" id="zoomband_tb2" style="position: absolute; left: 60px; top: 360px; height: 130px; width: 180px;" onclick="zoomband2()">
  
-    <span class="incanvas" id="seletext2" style="position: absolute; top: 400px; left: 440px; font-weight: bold; visibility: hidden;">&nbsp;Select the correct option</span>
+    <span class="incanvas" id="selecttext2" style="position: absolute; top: 400px; left: 440px; font-weight: bold; visibility: hidden;">&nbsp;Select the correct option</span>
 
             <select id="selectbar2" style="position: absolute; left: 450px; top: 440px; width: 160px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px; visibility: hidden;">
                 
@@ -1080,7 +1130,7 @@
 
     <input type="Button" id="subbtn2" value="Submit" onclick="selectimage2()" style="position: absolute; left: 500px; top: 490px; font-size:16px; background-color: #2150a0; color: #FFF; visibility: hidden;">
 
-<span style="position: absolute; top: 444px; left: 625px; color: red;" id="selecttext2"></span>
+<span style="position: absolute; top: 444px; left: 625px; color: red;" id="selecttext3"></span>
 <!-- </div>  -->
 
 
