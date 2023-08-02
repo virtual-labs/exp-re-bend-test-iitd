@@ -1,13 +1,1265 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plate Test</title>
+    
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- BEGIN BASE CSS STYLE -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+
+    <link href="iitstyle.css" rel="stylesheet" type="text/css">
+    
+
+    <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+<!--Graph Online Link -->
+  <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+
+
+  <meta charset="utf-8">
+<!--Graph Offline Link -->
+  <script src="graph_lib/chartist.min.js"></script>
+  <link href="graph_lib/chartist.min.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.ct-chart .ct-series.ct-series-a .ct-line 
+{
+  stroke: steelblue;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+</style>
+
+
+
+
+</head>
+
+<body style="margin:0;" >
+<table align="center">
+<tr><td style="padding: 10px;">
+    <div id="simscreen" style="overflow: hidden;">
+
+        <div id="title"><h3>Simulation</h3></div>
+
+
+
+         <!-- Scene 1 -->
+
+
+<div class="simsubscreen" id="canvas1" >
+
+
+            <p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left: 270px; top: 150px;"><strong>Select the test to be performed.</strong></p>
+
+            <input type="button" id="nextButton1" style="position:absolute; left: 190px; top: 290px; padding: 20px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px" value="&nbsp;Bend Test&nbsp;" onclick="navNext1()"/>
+
+            <input type="button" id="nextButton1" style="position:absolute; left:490px; top:290px; padding: 20px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px" value="&nbsp;Re-bend Test&nbsp;" onclick="navNext7()"/>
+
+</div>
+
+
+         <!-- Scene 2 -->
+
+
+<div class="simsubscreen" id="canvas2"  style="visibility:hidden;">
+
+
+            <p class="incanvas" style="position: absolute; top: 25px; left: 10px;font-size:15px;"><strong>Objective:</strong></p>
+
+            <p class="incanvas" style="position: absolute; top: 55px; left: 10px;font-size:14px;">To test the quality of steel reinforcement using bend test, as per IS 1599: 2019.</p></br>
+
+            <p class="incanvas" style="position: absolute; top: 85px; left: 10px;font-size:15px;"><strong>Apparatus Materials:</strong></p>
+
+            <p class="incanvas" style="position: absolute; top: 115px; left: 10px;font-size:14px;">	Bend test apparatus</p></br>
+
+            <img src="images/utm.png" style="position:absolute; left: 90px; top: 180px; height: 360px;"/>
+
+<img src="images/jack.png" style="position:absolute; left: 140px; top: 320px; height: 230px;"/>
+
+<img src="images/ctmnewup.png" style="position:absolute; left: 90px; top: 180px; height: 360px;"/>
+
+
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext2" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton2" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility:  ;" onclick="navNext2()" />
+        </div>
+
+
+         <!-- Scene 3 -->
+
+
+<div class="simsubscreen" id="canvas3"  style="visibility:hidden;">
+ 
+
+
+            <p class="incanvas" style="position: absolute; top: 25px; left: 10px; font-size:15px;"><strong>Enter specimen details.</strong></p>
+
+
+            <span class="incanvas" style="position: absolute; top: 55px; left: 10px;">&nbsp;Length of the specimen (mm) >= 500</span>
+
+            <input id="length1" type="number" style="position: absolute; left: 25px; top: 95px; width: 150px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;">
+
+            <!-- <span style="position: absolute; left: 480px; top: 75px;"> Days</span><br> -->
+
+
+            <span class="incanvas" style="position: absolute; top: 125px; left: 10px;">&nbsp;Diameter of the specimen (mm)</span>
+
+            <select id="diameter1" style="position: absolute; left: 25px; top: 165px; width: 150px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px;">
+                
+                <option value="0">--Select--</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="16">16</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="32">32</option>
+                <option value="40">40</option>
+                <!-- <option value="20">Up to and including 20 mm</option>
+
+                <option value="25">Over 20 mm</option> -->
+
+            </select>
+
+            <!-- <span style="position: absolute; left: 480px; top: 123px;"> cm</span> -->
+
+            <span class="incanvas" style="position: absolute; top: 195px; left: 10px;">&nbsp;Grade of specimen</span>
+
+            <select id="grade1" style="position: absolute; left: 25px; top: 235px; width: 150px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px;">
+
+                <option value="0">--Select--</option>          
+                <option value="101">Fe415</option>
+                <option value="102">Fe415D</option>
+                <option value="103">Fe415S</option>
+                <option value="104">Fe500</option>
+                <option value="105">Fe500D</option>
+                <option value="106">Fe500S</option>
+                <option value="107">Fe550</option>
+                <option value="108">Fe550D</option>
+                <option value="109">Fe600</option>
+                <option value="110">Fe650</option>
+                <option value="111">Fe700</option>
+
+            </select>
+
+            <!-- <span style="position: absolute; left: 480px; top: 123px;"> cm</span> -->
+
+            <span class="incanvas" style="position: absolute; top: 265px; left: 10px;">&nbsp;Mandriel diameter (mm)</span>
+
+            <input id="mandri1" type="number" style="position: absolute; left: 25px; top: 305px; width: 150px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;">
+
+            <!-- <span style="position: absolute; left: 480px; top: 75px;"> Days</span><br> -->
+
+            <span style="position: absolute; left: 25px; top: 345px; color: red;" id="fillBox"></span>
+<span style="position: absolute; left: 25px; top: 345px; color: red;" id="fillBox500"></span>
+            <p class="incanvas" style="font-size:15px;"></p>  
+
+
+            <input class="incanvas" id=" " type="button" name="Submit" value="Submit" style="position: absolute; left: 10px; top: 370px ; width: 150px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;" onclick="agesizeIn()"></br></br>
+
+
+            <table border="1" style="position: absolute; left: 200px; top: 180px; width: 570px; height: 160px; text-align: center; font-size: 11px; background-color: #FFF;">
+            	<tr style="font-weight: bold;">
+            		<td style="width: 40px;">Sr. No.</td>
+            		<td style="width: 90px;">Nominal Size<br>of Specimen</td>
+            		<td colspan="11">Mandrel Diameter for Different Grades</td>
+            		 
+            	</tr>
+            	<tr style="font-weight: bold;">
+            		<td>(1)</td>
+            		<td>(2)</td>
+            		<td style="padding: 2px;">Fe415<br>(3)</td>
+            		<td style="padding: 2px;">Fe415D<br>(4)</td>
+            		<td style="padding: 2px;">Fe415S<br>(5)</td>
+            		<td style="padding: 2px;">Fe500<br>(6)</td>
+            		<td style="padding: 2px;">Fe500D<br>(7)</td>
+            		<td style="padding: 2px;">Fe500S<br>(8)</td>
+            		<td style="padding: 2px;">Fe550<br>(9)</td>
+            		<td style="padding: 2px;">Fe550D<br>(10)</td>
+            		<td style="padding: 2px;">Fe600<br>(11)</td>
+            		<td style="padding: 2px;">Fe650<br>(12)</td>
+            		<td style="padding: 2px;">Fe700<br>(13)</td>
+            	</tr>
+            	<tr>
+            		<td>(i)</td>
+            		<td>Up to and including 20 mm</td>
+            		<td>3ɸ</td>
+            		<td>2ɸ</td>
+            		<td>2ɸ</td>
+            		<td>4ɸ</td>
+            		<td>3ɸ</td>
+            		<td>3ɸ</td>
+            		<td>5ɸ</td>
+            		<td>4ɸ</td>
+            		<td>5ɸ</td>
+            		<td>6ɸ</td>
+            		<td>7ɸ</td>
+            	</tr>
+            	<tr>
+            		<td>(ii)</td>
+            		<td>Over 20 mm</td>
+            		<td>4ɸ</td>
+            		<td>3ɸ</td>
+            		<td>3ɸ</td>
+            		<td>5ɸ</td>
+            		<td>4ɸ</td>
+            		<td>4ɸ</td>
+            		<td>6ɸ</td>
+            		<td>5ɸ</td>
+            		<td>6ɸ</td>
+            		<td>7ɸ</td>
+            		<td>8ɸ</td>
+            	</tr>
+            	
+            	<tr>
+            		<td colspan="13" style="text-align: left; font-weight: bold; color: red;">NOTE - ɸ is the nominal size of the test piece, in mm.</td>
+            	</tr>
+            </table>
+ 
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext3" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton3" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext3()">
+        </div>
+
+ 
+
+         <!-- Scene 4 -->
+
+<div class="simsubscreen" id="canvas4" style="visibility:hidden;">
+
+
+            <strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" id="stp1" style="position: absolute; top: 25px; left: 60px;">&nbsp;1&nbsp;</span></br>
+<!-- <p class="incanvas" style="position: absolute; top: 20px; left: 90px; font-size:15px;"><strong>Calculation of cross-sectional area:</strong></p> -->
+ 
+	<span id="step1a_a" style="position:absolute;left: 100px; top: 28px;"><i class="fa fa-hand-o-right"></i> Click on the rod to insert it in the bending apparatus.</span>
+ 
+	<span id="step1a_b" style="position:absolute;left: 100px; top: 28px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the jack to start bending the rod using bending apparatus.</span>
+
+
+<!-- <img src="images/jack2.png" style="position:absolute; left: 140px; top: 320px; height: 230px;"/> -->
+
+<img src="images/jackhandle.png" id="jackhandle1" style="position:absolute; left: 264px; top: 458px; height: 16.5px; transform-origin: left center; transform: rotate(0deg);"/>
+
+<img src="images/jackwithouthandle.png" style="position:absolute; left: 140px; top: 320px; height: 230px;"/>
+
+<img src="images/withouthammer.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+
+<img src="images/hammer.png" id="movehammer" style="position:absolute; left: 500px; top: 100px; height: 360px;"/>
+
+<img src="images/hammerup.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+
+<img src="images/reber1.png" id="aperatus1" style="height: 4px; width: 166px; position: absolute; top: 285px; left: 145px;">
+
+<img src="images/smallband.png" id="aperatus2" style="height: 16px;
+    width: 150px;
+    position: absolute;
+    top: 387px;
+     left: 510px; visibility: hidden;"> 
+ 
+
+<img src="images/uband3.png" id="aperatus3" style="position: absolute; height: 160px;
+    width: 100px;
+    top: 325px;
+    left: 535px; visibility:  hidden;">
+<img src="images/ctmnewup.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+ 
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowreberin" style="position:absolute; font-size: 30px; left: 210px; top: 235px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+<img src="images/transbox.png" id="aperatus_tb" style="position:absolute; left: 120px;
+    top: 250px;
+    height: 80px;
+    width: 260px; border: 0px solid red;" onclick="movetomachine()" />
+
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowpressurein" style="position:absolute; font-size: 30px; left: 330px; top: 425px; color: ; visibility:  hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="pressure_tb" style="position:absolute;left: 215px;
+    top: 420px;
+    height: 105px;
+    width: 210px; border: 0px solid red; visibility: hidden;" onclick="startpressure1()" />
+
+
+
+
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext4" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton4" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext4()">
+
+</div>
+
+
+ <!-- Scene 5 -->
+
+ <div class="simsubscreen" id="canvas5" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" style="position: absolute; top: 25px; left: 60px;">&nbsp;3&nbsp;</span></br>
+	<span style="position:absolute;left: 100px; top: 28px;"><strong>Examine the tension side of the rod.</strong></span>
+
+	<span id="step5_a" style="position:absolute;left: 100px; top: 55px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click to enlarge the view.</span>
+	<span id="step5_b" style="position:absolute;left: 100px; top: 55px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Select the correct option and cilck on submit button.</span>
+<img src="images/uband2.png" style="position: absolute; left: 100px;top: 170px;height: 300px;">
+	
+	<img src="images/ubandzoom.png" id="zoomimg1" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;">
+	
+	<img src="images/ubandzoomcreck.png" id="zoomimg2" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;">
+
+    <img src="images/transbox.png" id="zoomband_tb" style="position: absolute; left: 110px;
+    top: 350px;
+    height: 130px;
+    width: 180px;" onclick="zoomband1()">
+ 
+    <span class="incanvas" id="seletext1" style="position: absolute; top: 400px; left: 440px; font-weight: bold; visibility: hidden;">&nbsp;Select the correct option</span>
+
+            <select id="selectbar" style="position: absolute; left: 450px; top: 440px; width: 160px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px; visibility: hidden;">
+                
+                <option value="">--Select--</option>
+
+                <option value="1">With cracks</option>
+
+                <option value="2">Without cracks</option>
+
+            </select>
+
+    <input type="Button" id="subbtn1" value="Submit" onclick="selectimage1()" style="position: absolute; left: 500px; top: 490px; font-size:16px; background-color: #2150a0; color: #FFF; visibility: hidden;">
+
+<span style="position: absolute; top: 444px; left: 625px; color: red;" id="selecttext1"></span>
+<!-- </div>  -->
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowzoomin" style="position:absolute; font-size: 30px; left: 190px; top: 390px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+             <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowcubox5" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton5" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext5()" />
+
+             <img src="images/Next.png" id="nextButton5b" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext6()" />
+        </div>
+
+
+<!-- 	<span style="position:absolute;left: 100px; top: 28px;"><strong>Examine the tension side of the rod.</strong></span>
+
+	<span id="step5_a" style="position:absolute;left: 100px; top: 55px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click to enlarge the view.</span>
+	<span id="step5_b" style="position:absolute;left: 100px; top: 55px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Select the correct option and cilck on submit button.</span>
+     
+ 
+
+    <img src="images/uband2.png" style="position: absolute; left: 50px; top: 170px; height: 300px;">
+	
+	<img src="images/ubandzoom.png" id="zoomimg1" style="position: absolute; left: 270px;
+    top: 170px;
+    height: 240px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;" onclick="navNext5()">
+	
+	<img src="images/ubandzoomcreck.png" id="zoomimg2" style="position: absolute; left: 530px;
+    top: 170px;
+    height: 240px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;" onclick="navNext6()">
+
+<!--Blinking arrowcubox  --
+            <span class="blink_me" id="arrowzoomin" style="position:absolute; font-size: 30px; left: 140px; top: 390px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="zoomband_tb" style="position: absolute; left: 60px;
+    top: 350px;
+    height: 130px;
+    width: 180px;" onclick="zoomband1()">
+ 
+    <span class="incanvas" id="seletext1" style="position: absolute; top: 410px; left: 600px; font-weight: bold; visibility:  hidden;">&nbsp;With cracks</span>
+
+<span class="incanvas" id="seletext2" style="    position: absolute;
+    top: 410px;
+    left: 330px; font-weight: bold; visibility:  hidden;">&nbsp;Without cracks</span>
+
+            <select id="selectbar" style="position: absolute; left: 450px; top: 440px; width: 160px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px; visibility: hidden;">
+                
+                <option value="">--Select--</option>
+
+                <option value="1">With cracks</option>
+
+                <option value="2">Without cracks</option>
+
+            </select>
+
+    <input type="Button" id="subbtn1" value="Submit" onclick="selectimage1()" style="position: absolute; left: 500px; top: 490px; font-size:16px; background-color: #2150a0; color: #FFF; visibility: hidden;">
+
+<span style="position: absolute; top: 444px; left: 625px; color: red;" id="selecttext1"></span>
+
+
+
+             <!--Blinking arrowcubox  --
+            <span class="blink_me" id="arrowcubox5" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton5" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext5()" />
+
+             <img src="images/Next.png" id="nextButton5b" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext6()" />
+        </div> -->
+
+
+
+ <!-- Scene 6 -->
+
+ <div class="simsubscreen" id="canvas6" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 70px; left: 90px; font-size: 18px;">Report:</strong>
+<span style="position: absolute; left: 170px; top: 81px; font-size: 17px;">Bend Test</span> 
+
+	<span style="position: absolute; left: 340px; top: 400px; font-size: 16px; font-weight: bold;"></span>
+
+	<table border="1" style="position: absolute; left: 100px; top: 140px; width: 600px;  font-weight: bold; background-color: #FFF; padding: 10px"> 
+		<tr>
+			<td style="padding: 10px; width: 300px;">Type of material</td>
+			<td><span id="val1"></span></td>
+		</tr>
+		<!-- <tr>
+			<td style="padding: 10px;">Diameter of cross-section</td>
+			<td><span id="val2"></span></td>
+		</tr> -->
+		<tr>
+			<td style="padding: 10px;">Nominal Diameter</td>
+			<td><span id="val3"></span></td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">Diameter of mandrel</td>
+			<td><span id="val4"></span></td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">Presence of cracks</td>
+			<td><span id="val5"></span></td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">Remark</td>
+			<td> Sample is passed</td>
+		</tr>
+	</table>
+ 
+<input type="button" style="position:absolute; left: 700px; top: 518px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF; visibility:  ;" value="&nbsp;Restart&nbsp;" onclick="reset()"/>
+
+        </div>
+
+
+ <!-- Scene 7 -->
+
+ <div class="simsubscreen" id="canvas7" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 70px; left: 90px; font-size: 18px;">Report:</strong>
+ <span style="position: absolute; left: 170px; top: 81px; font-size: 17px;">Bend Test</span>
+
+	<span style="position: absolute; left: 340px; top: 400px; font-size: 16px; font-weight: bold;"></span>
+
+	<table border="1" style="position: absolute; left: 100px; top: 140px; width: 600px;  font-weight: bold; background-color: #FFF; padding: 10px"> 
+		<tr>
+			<td style="padding: 10px; width: 300px;">Type of material</td>
+			<td><span id="val11"></span></td>
+		</tr>
+		<!-- <tr>
+			<td style="padding: 10px;">Diameter of cross-section</td>
+			<td><span id="val21"></span></td>
+		</tr> -->
+		<tr>
+			<td style="padding: 10px;">Nominal Diameter</td>
+			<td><span id="val31"></span></td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">Diameter of mandrel</td>
+			<td><span id="val41"></span></td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">Presence of cracks</td>
+			<td><span id="val51"></span></td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">Remark</td>
+			<td> Sample is failed</td>
+		</tr>
+	</table>
+ 
+<input type="button" style="position:absolute; left: 700px; top: 518px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF; visibility:  ;" value="&nbsp;Restart&nbsp;" onclick="reset()"/>
+
+        </div>
+
+<!-- 
+  =============================
+  | Re - Band Test start here |
+  =============================
+ -->
+         <!-- Scene 8 -->
+
+
+<div class="simsubscreen" id="canvas8"  style="visibility:hidden;">
+
+
+            <p class="incanvas" style="position: absolute; top: 25px; left: 10px;font-size:15px;"><strong>Objective:</strong></p>
+
+            <p class="incanvas" style="position: absolute; top: 55px; left: 10px;font-size:14px;">To test the quality of steel reinforcement using re-bend test, as per IS 1786: 2008 (reaffirmed 2018).</p></br>
+
+            <p class="incanvas" style="position: absolute; top: 85px; left: 10px;font-size:15px;"><strong>Apparatus Materials:</strong></p>
+
+            <p class="incanvas" style="position: absolute; top: 115px; left: 10px;font-size:14px;"> Bend test apparatus</p></br>
+
+
+<img src="images/utm.png" style="position:absolute; left: 90px; top: 180px; height: 360px;"/>
+
+<img src="images/jack.png" style="position:absolute; left: 140px; top: 320px; height: 230px;"/>
+
+<img src="images/ctmnewup.png" style="position:absolute; left: 90px; top: 180px; height: 360px;"/>
+
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext8" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton8" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility:  ;" onclick="navNext8()" />
+        </div>
+
+
+
+    <!-- Scene 9 -->
+
+
+<div class="simsubscreen" id="canvas9" style="visibility:hidden;">
+ 
+
+
+            <p class="incanvas" style="position: absolute; top: 25px; left: 10px; font-size:15px;"><strong>Enter specimen details.</strong></p>
+
+
+            <span class="incanvas" style="position: absolute; top: 55px; left: 10px;">&nbsp;Length of the specimen (mm) >= 500</span>
+
+            <input id="length2" type="number" style="position: absolute; left: 25px; top: 95px; width: 150px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;">
+
+            <!-- <span style="position: absolute; left: 480px; top: 75px;"> Days</span><br> -->
+
+
+            <span class="incanvas" style="position: absolute; top: 125px; left: 10px;">&nbsp;Diameter of the specimen (mm)</span>
+
+            <!-- <select id="diameter2" style="position: absolute; left: 25px; top: 165px; width: 150px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px;">
+                
+                <option value="0">--Select--</option>
+
+                <option value="10">Up to and including 10 mm</option>
+
+                <option value="15">Over 10 mm</option>
+
+            </select> -->
+            <select id="diameter2" style="position: absolute; left: 25px; top: 165px; width: 150px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px;">
+                <option value="0">--Select--</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="16">16</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="32">32</option>
+                <option value="40">40</option>
+            </select>
+
+            <!-- <span style="position: absolute; left: 480px; top: 123px;"> cm</span> -->
+
+            <span class="incanvas" style="position: absolute; top: 195px; left: 10px;">&nbsp;Grade of specimen</span>
+
+            <select id="grade2" style="position: absolute; left: 25px; top: 235px; width: 150px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px;">
+
+                <option value="0">--Select--</option>          
+                <option value="191">Fe415 & Fe500</option>
+                <option value="192">Fe415D & Fe500D</option>
+                <option value="193">Fe415S & Fe500S</option>
+                <option value="194">Fe550 & Fe600</option>
+                <option value="195">Fe550D</option>
+                <option value="196">Fe650 & Fe700</option>
+
+            </select>
+
+            <!-- <span style="position: absolute; left: 480px; top: 123px;"> cm</span> -->
+
+            <span class="incanvas" style="position: absolute; top: 265px; left: 10px;">&nbsp;Mandriel diameter (mm)</span>
+
+            <input id="mandri2" type="number" style="position: absolute; left: 25px; top: 305px; width: 150px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;">
+
+            <!-- <span style="position: absolute; left: 480px; top: 75px;"> Days</span><br> -->
+
+            <span style="position: absolute; left: 25px; top: 345px; color: red;" id="fillBox2"></span>
+<!-- <span style="position: absolute; left: 25px; top: 345px; color: red;" id="fillBox500"></span> -->
+            <p class="incanvas" style="font-size:15px;"></p>  
+
+
+            <input class="incanvas" type="button" name="Submit" value="Submit" style="position: absolute; left: 10px; top: 370px ; width: 150px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;" onclick="agesizeIn2()"></br></br>
+
+
+            <table border="1" style="position: absolute; left: 200px; top: 180px; width: 570px; height: 160px; text-align: center; font-size: 11px; background-color: #FFF;">
+                <tr style="font-weight: bold;">
+                    <td style="width: 40px;">Sr. No.</td>
+                    <td style="width: 90px;">Nominal Size<br>of Specimen</td>
+                    <td colspan="6">Mandrel Diameter for Different Grades</td>
+                     
+                </tr>
+                <tr style="font-weight: bold;">
+                    <td>(1)</td>
+                    <td>(2)</td>
+                    <td style="padding: 2px;">Fe415 & Fe500<br>(3)</td>
+                    <td style="padding: 2px;">Fe415D & Fe500D<br>(4)</td>
+                    <td style="padding: 2px;">Fe415S & Fe500S<br>(5)</td>
+                    <td style="padding: 2px;">Fe550 & Fe600<br>(6)</td>
+                    <td style="padding: 2px;">Fe550D<br>(7)</td>
+                    <td style="padding: 2px;">Fe650 & Fe700<br>(8)</td>
+                </tr>
+                <tr>
+                    <td>(i)</td>
+                    <td>Up to and including 10 mm</td>
+                    <td>5ɸ</td>
+                    <td>4ɸ</td>
+                    <td>4ɸ</td>
+                    <td>7ɸ</td>
+                    <td>6ɸ</td>
+                    <td>7ɸ</td>
+                </tr>
+                <tr>
+                    <td>(ii)</td>
+                    <td>Over 10 mm</td>
+                    <td>7ɸ</td>
+                    <td>6ɸ</td>
+                    <td>6ɸ</td>
+                    <td>9ɸ</td>
+                    <td>7ɸ</td>
+                    <td>9ɸ</td>
+                </tr>
+                
+                <tr>
+                    <td colspan="8" style="text-align: left; font-weight: bold; color: red;">NOTE - ɸ is the nominal size of the test piece, in mm.</td>
+                </tr>
+            </table>
+ 
+            <!-- Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext9" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton9" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext9()">
+        </div>
+
+ 
+
+         <!-- Scene 10 -->
+
+<div class="simsubscreen" id="canvas10" style="visibility:hidden;">
+
+
+            <strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" id="stp10" style="position: absolute; top: 25px; left: 60px;">&nbsp;1&nbsp;</span></br>
+<!-- <p class="incanvas" style="position: absolute; top: 20px; left: 90px; font-size:15px;"><strong>Calculation of cross-sectional area:</strong></p> -->
+ 
+    <span id="step10a_a" style="position:absolute;left: 100px; top: 28px;"><i class="fa fa-hand-o-right"></i> Click on the rod to insert it in the bending apparatus.</span>
+ 
+    <span id="step10a_b" style="position:absolute;left: 100px; top: 28px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the jack to bend the rod using bending apparatus to 135°.</span>
+
+<img src="images/jackhandle.png" id="jackhandle2" style="position:absolute; left: 264px; top: 458px; height: 16.5px; transform-origin: left center; transform: rotate(0deg);"/>
+
+<img src="images/jackwithouthandle.png" style="position:absolute; left: 140px; top: 320px; height: 230px;"/>
+
+<img src="images/withouthammer.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+
+<img src="images/hammer.png" id="movehammer2" style="position:absolute; left: 500px; top: 100px; height: 360px;"/>
+
+<img src="images/hammerup.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+
+<img src="images/reber1.png" id="aperatus11" style="height: 4px; width: 166px; position: absolute; top: 285px; left: 145px;">
+
+<img src="images/smallband.png" id="aperatus21" style="height: 16px;
+    width: 150px;
+    position: absolute;
+    top: 387px;
+     left: 510px; visibility: hidden;"> 
+ 
+
+<img src="images/uband3.png" id="aperatus31" style="position: absolute; height: 160px;
+    width: 100px;
+    top: 325px;
+    left: 535px; visibility:  hidden;">
+<img src="images/ctmnewup.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+ 
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowreberin2" style="position:absolute; font-size: 30px; left: 210px; top: 235px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+<img src="images/transbox.png" id="aperatus_tb2" style="position:absolute; left: 120px;
+    top: 250px;
+    height: 80px;
+    width: 260px; border: 0px solid red;" onclick="movetomachine2()" />
+
+
+<!--Blinking arrowcubox  -->
+
+    <span class="blink_me" id="arrowpressurein2" style="position:absolute; font-size: 30px; left: 330px; top: 425px; color: ; visibility:  hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="pressure_tb2" style="position:absolute;left: 215px;
+    top: 420px;
+    height: 105px;
+    width: 210px; border: 0px solid red; visibility: hidden;" onclick="startpressure2()" />
+
+
+
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext10" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton10" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext10()">
+
+</div>
+
+
+ <!-- Scene 11 -->
+
+ <div class="simsubscreen" id="canvas11" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" style="position: absolute; top: 25px; left: 60px;">&nbsp;3&nbsp;</span></br>
+
+    <!-- <span style="position:absolute;left: 100px; top: 28px;"><strong>Examine the tension side of the rod.</strong></span> -->
+
+    <span id="step11_a" style="position:absolute;left: 100px; top: 30px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click on rod to place it over the cardboard and check for an angle of 135°.
+</span>
+    <span id="step11_b" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on angle protractor to check for an angle of 135°.</span>
+    <!-- <span id="step5_b" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Take out the rod to check for an angle of 135°.</span> -->
+     
+
+   <img src="images/135.jpg" style="position: absolute; left: 125px; top: 170px; height: 220px;">  
+  
+    <img src="images/smallband3.png" id="moveangle1" style="position: absolute; left: 120px; top: 440px; height: 112px; width: 430px; transform: rotate(20deg);">
+    
+    <!-- <img src="images/proctector1.png" id="protectbackpart" style="position: absolute; left: 140px; 
+    top: 230px;
+    height: 150px; visibility:  hidden;">
+
+    <img src="images/proctector4.png" id="protectorpart" style="position: absolute; left: -55px; top: 253px; transform: rotate(0deg); height: 150px;transform-origin: center; visibility:  hidden;" onclick="">
+
+    <img src="images/proctectorfull.png" id="protectorfullpart" style="position: absolute; left: 140px;
+    top: 420px;
+    height: 150px; visibility:  ;" onclick="">
+
+    <img src="images/ubandzoomcreck.png" id="zoomimg2" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;">-->
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowmoveangle" style="position:absolute; font-size: 30px; left: 320px; top: 450px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="moveangle_tb" style="position: absolute; left: 130px; top: 380px; height: 180px; width: 450px;" onclick="move1protector()">
+
+<!--Blinking arrowcubox 
+            <span class="blink_me" id="arrowuseprotect" style="position:absolute; font-size: 30px; left: 400px; top: 270px; color: ; visibility:  hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="useprotect_tb" style="position: absolute;     left: 200px;
+    top: 230px;
+    height: 130px;
+    width: 450px; visibility: hidden; " onclick="useprotector()">  -->
+
+
+<!-- </div>  -->
+
+
+             <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext11" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton11" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext11()" />
+
+        </div>
+
+
+
+ <!-- Scene 12 -->
+
+ <div class="simsubscreen" id="canvas12" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" style="position: absolute; top: 25px; left: 60px;">&nbsp;4&nbsp;</span></br>
+
+    <!-- <span style="position:absolute;left: 100px; top: 28px;"><strong>1234567890.</strong></span> -->
+
+    <span id="step12_a" style="position:absolute;left: 100px; top: 30px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click on the water bath to open it.</span>
+    
+    <span id="step12_b" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the bent rod to place it in the water bath and keep it in the boiling water for 30 mins.</span>
+    
+<!--    <span id="step12_c" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the water bath machine cap to close it. </span>
+
+    <span id="step12_d" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the water bath machine power on button.</span>
+    
+    <span id="step12_e" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the water bath machine power off button.</span>
+    
+    <span id="step12_f" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the water bath machine cap to open it.</span>
+   
+    <span id="step12_g" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Take out the rod after 30 mins and allow it to cool..</span>     
+
+   <img src="images/smallband6.png" style="position: absolute; left: 147px;
+    top: 269px;
+    height: 92px;
+    width: 337px;
+    transform: rotate(10deg);">  -->
+  <img src="images/waterbathtubwithoutcap.png" style="position: absolute; left: 350px; top: 160px; height: 370px; visibility:   ;">
+
+
+    <img src="images/smallband3.png" id="bandreber1" style="position: absolute; left: 120px;
+    top: 250px;
+    height: 70px;
+    width: 200px;">
+    
+    <img src="images/waterbathupimg.png" style="position: absolute; left: 350px; top: 160px; height: 370px; visibility:   ;">
+
+    <img src="images/waterbathtubcaponly2.png" id="wb_cap" style="position: absolute; left: 350px; top: 162px; height: 360px; visibility:   ;">
+
+     <img src="images/stopwatch2.png" id="stpwtch1" style="position: absolute; left: 140px; top: 210px; height: 210px; visibility: hidden;" onclick="">
+
+    <span id="stpwtch_numberstable" style="position: absolute; top: 288px; left: 180px; font-size: 22px; font-family: 'Orbitron', sans-serif !important; visibility: hidden;">00:</span>
+
+    <span id="stpwtch_number" style="position: absolute; top: 288px; left: 222px; font-size: 22px; font-family: 'Orbitron', sans-serif !important; visibility: hidden;">30</span>
+
+    <span id="stpwtch_text"  style="position:absolute; left: 60px; top: 160px; visibility: hidden;"><strong>Keep the bent rod the boiling water for 30 min.</strong></span>
+<!--
+    <img src="images/ubandzoomcreck.png" id="zoomimg2" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;"> -->
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowmovewbcap" style="position:absolute; font-size: 30px; left: 520px; top: 155px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="movewbcap_tb" style="position: absolute; left: 360px;
+    top: 160px;
+    height: 110px;
+    width: 390px; " onclick="movewbcap()">
+
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowmovewbcap2" style="position:absolute; font-size: 30px; left: 630px; top: 155px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+            <img src="images/transbox.png" id="movecapclose_tb" style="position: absolute; left: 500px; top: 160px; height: 110px; width: 390px; border: 0px solid; visibility: hidden;" onclick="movewbcapclose()">
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowpowon1" style="position:absolute; font-size: 30px; left: 700px; top: 275px; color: #ffeb3b; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+            <img src="images/transbox.png" id="poweron_tb" style="position: absolute; left: 665px; top: 272px; height: 50px; border: 0px solid; visibility: hidden;" onclick="turnonwb()">
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowpowoff1" style="position:absolute; font-size: 30px; left: 700px; top: 240px; color: #ff0000; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+            <img src="images/transbox.png" id="poweroff_tb" style="position: absolute;  left: 665px; top: 235px; height: 50px; border: 0px solid; visibility: hidden;" onclick="turnoffwb()">
+
+
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowbendreber" style="position:absolute; font-size: 30px; left: 200px; top: 230px; color: ; visibility:  hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="movebendreber_tb" style="position: absolute; left: 90px; top: 230px; height: 130px; width: 250px; visibility: hidden; " onclick="movebendreber1()"> 
+
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowmovewbcap3" style="position:absolute; font-size: 30px; left: 520px; top: 155px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+            <img src="images/transbox.png" id="movewbcap_tb3" style="position: absolute; left: 360px;    top: 160px; height: 110px; width: 390px; visibility: hidden;" onclick="movewbcap3()">
+<!-- </div>  -->
+
+
+             <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext12" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton12" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext12()" />
+
+        </div>
+
+         <!-- Scene 13 -->
+
+<div class="simsubscreen" id="canvas13" style="visibility:hidden;">
+
+
+            <strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" id="stp13" style="position: absolute; top: 25px; left: 60px;">&nbsp;5&nbsp;</span></br>
+<!-- <p class="incanvas" style="position: absolute; top: 20px; left: 90px; font-size:15px;"><strong>Calculation of cross-sectional area:</strong></p> -->
+ 
+    <span id="step13_a" style="position:absolute;left: 100px; top: 28px;"><i class="fa fa-hand-o-right"></i> Insert the rod again in the bending machine and bend it back to 157.5°.</span>
+ 
+    <span id="step13_b" style="position:absolute;left: 100px; top: 28px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on the jack to bend back the rod using bending apparatus to 157.5°.</span>
+
+
+<img src="images/jackhandle.png" id="jackhandle3" style="position:absolute; left: 264px; top: 458px; height: 16.5px; transform-origin: left center; transform: rotate(0deg);"/>
+
+<img src="images/jackwithouthandle.png" style="position:absolute; left: 140px; top: 320px; height: 230px;"/>
+
+<img src="images/withouthammer.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+
+<img src="images/hammer.png" id="movehammer3" style="position:absolute; left: 500px; top: 100px; height: 360px;"/>
+
+<img src="images/hammerup.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+
+<!-- <img src="images/reber1.png" id="aperatus11" style="height: 4px; width: 166px; position: absolute; top: 285px; left: 145px;"> -->
+<img src="images/smallband3.png" id="aperatus22" style="position: absolute; left: 140px;
+    top: 277px;
+    height: 44px;
+    width: 175px;">
+
+<img src="images/smallband3.png" id="aperatus23" style="position: absolute; left: 493px; top: 380px; transform: rotate(180deg); height: 44px; width: 175px; visibility: hidden;">
+ 
+
+<img src="images/uband3.png" id="aperatus31" style="position: absolute; height: 160px;
+    width: 100px;
+    top: 325px;
+    left: 535px; visibility:  hidden;">
+<img src="images/ctmnewup.png" style="position:absolute; left: 500px; top: 150px; height: 360px;"/>
+ 
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowreberin3" style="position:absolute; font-size: 30px; left: 210px; top: 235px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+<img src="images/transbox.png" id="aperatus_tb3" style="position:absolute; left: 120px;
+    top: 250px;
+    height: 80px;
+    width: 260px; border: 0px solid red;" onclick="movetomachine3()" />
+
+
+<!--Blinking arrowcubox 
+            <span class="blink_me" id="arrowpressurein3" style="position:absolute; font-size: 30px; left: 530px; top: 245px; color: ; visibility:  hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<img src="images/transbox.png" id="pressure_tb3" style="position:absolute; left: 555px; top: 160px; height: 185px; width: 60px; border: 0px solid red; visibility: hidden;" onclick="startpressure3()" />
+ -->
+<!--Blinking arrowcubox  -->
+
+    <span class="blink_me" id="arrowpressurein3" style="position:absolute; font-size: 30px; left: 330px; top: 425px; color: ; visibility:  hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="pressure_tb3" style="position:absolute;left: 215px;
+    top: 420px;
+    height: 105px;
+    width: 210px; border: 0px solid red; visibility: hidden;" onclick="startpressure3()" />
+
+
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext13" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton13" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext13()">
+
+</div>
+
+
+
+
+ <!-- Scene 14 -->
+
+ <div class="simsubscreen" id="canvas14" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" style="position: absolute; top: 25px; left: 60px;">&nbsp;7&nbsp;</span></br>
+
+    <span id="step14_a" style="position:absolute;left: 100px; top: 30px; visibility: ;"><i class="fa fa-hand-o-right"></i> Place the rod over the cardboard and check for an angle of 157.5°.</span>
+
+    <span id="step14_b" style="position:absolute;left: 100px; top: 30px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Click on angle protractor to check for an angle of 135°.</span>
+
+
+   <img src="images/157.jpg" style="position: absolute; left: 125px; top: 170px; height: 220px;"> 
+            
+    <img src="images/smallband6.png" id="moveangle2" style="position: absolute; left: 157px; top: 470px;
+    height: 92px;
+    width: 337px;
+    transform: rotate(10deg);">  
+  
+ <!--    <img src="images/smallband3.png" style="position: absolute; left: 118px;
+    top: 247px;
+    height: 112px;
+    width: 430px;
+    transform: rotate(20deg);">
+    
+    <img src="images/proctector1.png" id="protectbackpart2" style="position: absolute; left: 137px;
+    top: 227px; height: 150px; visibility:  hidden;"> 
+
+    <img src="images/proctector4.png" id="protectorpart2" style="position: absolute; left: -58px; top: 250px; transform: rotate(0deg); height: 150px;transform-origin: center; visibility:  hidden;" onclick="">
+
+    <img src="images/proctectorfull.png" id="protectorfullpart2" style="position: absolute; left: 137px;
+    top: 420px;
+    height: 150px; visibility:  ;" onclick="">
+ 
+    <img src="images/ubandzoomcreck.png" id="zoomimg2" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;"> -->
+
+<!--Blinking arrowcubox  -->
+            <!-- <span class="blink_me" id="arrowmoveprotect2" style="position:absolute; font-size: 30px; left: 420px; top: 440px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span> -->
+
+    <!-- <img src="images/transbox.png" id="moveprotect_tb2" style="position: absolute;     left: 200px; 
+    top: 420px;
+    height: 130px;
+    width: 450px; " onclick="move2protector()">-->
+
+    <span class="blink_me" id="arrowmoveangle2" style="position:absolute; font-size: 30px; left: 320px; top: 450px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="moveangle_tb2" style="position: absolute; left: 130px; top: 380px; height: 180px; width: 450px;" onclick="move2protector()">
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowuseprotect2" style="position:absolute; font-size: 30px; left: 400px; top: 270px; color: ; visibility:  hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="useprotect_tb2" style="position: absolute;     left: 200px;
+    top: 230px;
+    height: 130px;
+    width: 450px; visibility: hidden; " onclick="useprotector2()"> 
+
+
+<!-- </div>  -->
+
+
+             <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrownext14" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton14" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext14()" />
+
+        </div>
+
+
+
+
+ <!-- Scene 15 -->
+
+ <div class="simsubscreen" id="canvas15" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" style="position: absolute; top: 25px; left: 60px;">&nbsp;8&nbsp;</span></br>
+
+    <span style="position:absolute;left: 100px; top: 28px;"><strong>Examine the tension side of the rod for cracks.</strong></span>
+
+    <span id="step15_a" style="position:absolute;left: 100px; top: 55px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click to enlarge the view.</span>
+    <span id="step15_b" style="position:absolute;left: 100px; top: 55px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Select the correct option and cilck on submit button.</span>
+     
+ 
+
+    <img src="images/smallband6.png" style="position: absolute; left: 20px; top: 340px; height: 140px;">
+    
+    <img src="images/vbandzoom.png" id="zoomimg3" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;">
+    
+    <img src="images/vbandzoomcreck.png" id="zoomimg4" style="position: absolute;    left: 380px;
+    top: 90px;
+    height: 300px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;">
+
+
+    <!-- <img src="images/vbandzoom.png" id="zoomimg3" style="position: absolute; left: 270px;
+    top: 170px;
+    height: 240px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;" onclick="navNext15()">
+    
+    <img src="images/vbandzoomcreck.png" id="zoomimg4" style="position: absolute; left: 530px;
+    top: 170px;
+    height: 240px;
+    border-radius: 160px;
+    border: 6px solid #000; visibility: hidden;" onclick="navNext16()"> -->
+
+
+    <span class="incanvas" id="seletext3" style="position: absolute; top: 410px; left: 600px; font-weight: bold; visibility: hidden;">&nbsp;With cracks</span>
+
+<span class="incanvas" id="seletext4" style="    position: absolute;
+    top: 410px;
+    left: 330px; font-weight: bold; visibility: hidden;">&nbsp;Without cracks</span>
+
+<!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowzoomin2" style="position:absolute; font-size: 30px; left: 130px; top: 390px; color: ; visibility:  ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+    <img src="images/transbox.png" id="zoomband_tb2" style="position: absolute; left: 60px; top: 360px; height: 130px; width: 180px;" onclick="zoomband2()">
+ 
+    <span class="incanvas" id="selecttext2" style="position: absolute; top: 400px; left: 440px; font-weight: bold; visibility: hidden;">&nbsp;Select the correct option</span>
+
+            <select id="selectbar2" style="position: absolute; left: 450px; top: 440px; width: 160px; border:none; border: 1px solid #000;  padding-top: 2px; padding-bottom: 2px; visibility: hidden;">
+                
+                <option value="">--Select--</option>
+
+                <option value="1">With cracks</option>
+
+                <option value="2">Without cracks</option>
+
+            </select>
+
+    <input type="Button" id="subbtn2" value="Submit" onclick="selectimage2()" style="position: absolute; left: 500px; top: 490px; font-size:16px; background-color: #2150a0; color: #FFF; visibility: hidden;">
+
+<span style="position: absolute; top: 444px; left: 625px; color: red;" id="selecttext3"></span>
+<!-- </div>  -->
+
+
+             <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowcubox15" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton15" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext15()" />
+
+             <img src="images/Next.png" id="nextButton15b" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext16()" />
+        </div>
+
+
+
+ <!-- Scene 16 -->
+
+ <div class="simsubscreen" id="canvas16" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 70px; left: 90px; font-size: 18px;">Report:</strong>
+ <span style="position: absolute; left: 170px; top: 81px; font-size: 17px;">Re-Bend Test</span>
+
+    <span style="position: absolute; left: 340px; top: 400px; font-size: 16px; font-weight: bold;"></span>
+
+    <table border="1" style="position: absolute; left: 100px; top: 140px; width: 600px;  font-weight: bold; background-color: #FFF; padding: 10px"> 
+        <tr>
+            <td style="padding: 10px; width: 300px;">Type of material</td>
+            <td><span id="valv1"></span></td>
+        </tr>
+        <!-- <tr>
+            <td style="padding: 10px;">Diameter of cross-section</td>
+            <td><span id="valv2"></span></td>
+        </tr> -->
+        <tr>
+            <td style="padding: 10px;">Nominal Diameter</td>
+            <td><span id="valv3"></span></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">Diameter of mandrel</td>
+            <td><span id="valv4"></span></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">Presence of cracks</td>
+            <td><span id="valv5"></span></td>
+        </tr>
+        <tr>
+			<td style="padding: 10px;">Remark</td>
+			<td> Sample is passed</td>
+		</tr>
+    </table>
+ 
+<input type="button" style="position:absolute; left: 700px; top: 518px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF; visibility:  ;" value="&nbsp;Restart&nbsp;" onclick="reset()"/>
+
+        </div>
+
+
+ <!-- Scene 17 -->
+
+ <div class="simsubscreen" id="canvas17" style="visibility:hidden;">
+
+<strong class="incanvas" style="position: absolute; top: 70px; left: 90px; font-size: 18px;">Report:</strong>
+ 
+ <span style="position: absolute; left: 170px; top: 81px; font-size: 17px;">Re-Bend Test</span>
+
+    <span style="position: absolute; left: 340px; top: 400px; font-size: 16px; font-weight: bold;"></span>
+
+    <table border="1" style="position: absolute; left: 100px; top: 140px; width: 600px;  font-weight: bold; background-color: #FFF; padding: 10px"> 
+        <tr>
+            <td style="padding: 10px; width: 300px;">Type of material</td>
+            <td><span id="valv11"></span></td>
+        </tr>
+        <!-- <tr>
+            <td style="padding: 10px;">Diameter of cross-section</td>
+            <td><span id="valv21"></span></td>
+        </tr> -->
+        <tr>
+            <td style="padding: 10px;">Nominal Diameter</td>
+            <td><span id="valv31"></span></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">Diameter of mandrel</td>
+            <td><span id="valv41"></span></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">Presence of cracks</td>
+            <td><span id="valv51"></span></td>
+        </tr>
+        <tr>
+			<td style="padding: 10px;">Remark</td>
+			<td> Sample is failed</td>
+		</tr>
+    </table>
+ 
+<input type="button" style="position:absolute; left: 700px; top: 518px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF; visibility:  ;" value="&nbsp;Restart&nbsp;" onclick="reset()"/>
+
+        </div>
+ <!-- Scene 15 
+
+ <div class="simsubscreen" id="canvas15" style="visibility:hidden;"></br>
+
+<strong class="incanvas" style="position: absolute; top: 20px; left: 10px;">STEP</strong>
+
+            <span class="circlebg" style="position: absolute; top: 25px; left: 60px;">&nbsp;5&nbsp;</span></br>
+
+    <span style="position:absolute;left: 100px; top: 28px;"><strong> Insert the bend rod again in the bending machine to re-bend it.
+</strong></span>
+
+    <span id="step5_a" style="position:absolute;left: 100px; top: 55px; visibility: ;"><i class="fa fa-hand-o-right"></i> Click to enlarge the view.</span>
+    <span id="step5_b" style="position:absolute;left: 100px; top: 55px; visibility: hidden;"><i class="fa fa-hand-o-right"></i> Take out the rod to check for an angle of 135°.</span>
+
+-->
+             <!--Blinking arrowcubox 
+            <span class="blink_me" id="arrownext15" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/Next.png" id="nextButton15" style="position:absolute; left:740px; top:505px; cursor:pointer; visibility: hidden;" onclick="navNext15()" />
+
+        </div> -->
+
+    </div><!--- First Div-->
+
+<!---<div style="text-align: center; font-size: 11px; width:800px; border:1px solid #000; position: relative; border-top:none; color: #FFF; background-color: #000;">Developed by @ <a href="#" ><strong style="color: #FFF; font-size: 12px;">Virtuality India Pvt.Ltd</strong></a></div>
+</body>
+i class="fa fa-arrow-right" style="color: #82C91E"></i>
+<i class="fa fa-arrow-left" style="color: #82C91E"></i>
+<i class="fa fa-arrow-down" style="color: #82C91E"></i>
+<i class="fa fa-arrow-up" style="color: #82C91E"></i>
+<i class="fa fa-chevron-circle-right" style="color: #82C91E"></i>
+
+
+<i class="fas fa-hand-point-right" style="color: #82C91E"></i--->
+</td></tr>
+</table>
 </body>
 </html>
