@@ -6,13 +6,50 @@
 		"c": "Impact",
 		"d": "Ductility"
 	},
-	"correctAnswer": "a"
-},
-{
-	"question": "2. Bend and rebend tests are quantitative tests for steel reinforcements.",
+	"correctAnswer": "d"
+}, {
+	"question": "2. The usual angle through which bending should be obtained in a bending test is: ",
 	"answers": {
-		"a": "True",
-		"b": "False"
+		"a": "180°",
+		"b": "120°",
+		"c": "75°",
+		"d": "90°"
 	},
 	"correctAnswer": "a"
-}]
+}, {
+	"question": "3. Which IS code specifies the details of mandrel to be used for different grades and thickness ?",
+	"answers": {
+		"a": "IS 1599",
+		"b": "IS 456",
+		"c": "IS 1786",
+		"d": "IS 1566"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "4. Which IS code details the method of bend test to be performed on reinforcement bars ?",
+	"answers": {
+		"a": "IS 1599",
+		"b": "IS 456",
+		"c": "IS 1786",
+		"d": "IS 1566"
+	},
+	"correctAnswer": "a"
+}]### Lab Coordinator :
+
+| SNo. | Name | Institute |
+| :--: | :-- | :-------: |
+|  1   | Dr. Pruthviraj U | NITK |
+
+### Lab Developers (Coding):
+
+| SNo. | Name | Institute |
+| :--: | :-- | :-------: |
+|  1   | Anusha B Salian | NITK |
+
+### Content Developers (Subject matter):
+
+| SNo. | Name | Institute |
+| :--: | :-- | :-------: |
+|  1   | Mahima N | NITK |
+|  2   | Ashika Pai | NITK |
+|  3   | Aishwarya Shetty | NITK |
