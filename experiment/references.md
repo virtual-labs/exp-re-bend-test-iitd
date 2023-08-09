@@ -1,2 +1,3 @@
-IS:516-Part 8/Sec 1 (2018) Determination of modulus of elasticity and poisson’s ratio in compression<br><br> 
-IS:456 (2000) Plain and Reinforced Concrete - Code of Practice.
+IS 1599: 2019 - Metallic materials - Bend test (Fourth Revision)
+<br><br>
+IS 1786: 2008 (reaffirmed 2018) - High Strength Deformed Steel Bar and wires  for concrete reinforcement - specification
